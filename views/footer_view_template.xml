@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <template id="footer_page" inherit_id="website.layout">
+        <xpath expr="//footer" position="replace">
+            <footer class="o_footer" style="background: black; padding: 40px 20px; border-top: 1px solid #ddd;">
+                <div class="container">
+                    <div class="row">
+                        <!-- Logo and About Section -->
+                        <div class="col-lg-3 col-md-6 mb-4">
+                            <img src="https://res.cloudinary.com/drw030kab/image/upload/v1734779329/zcfrsha3oqcv342smp3s.png" alt="Logo" style="max-width: 40px; margin-right:10px;"/><span style="font-weight:bold; color:white;">AIRZO GLOBAL</span>
+                            <p style="margin-top: 15px; color: #ffffff;">
+                                It's time to do something good for the environment and get rewarded for it start now at Arizoglobal
+                            </p>
+                            <div class="social-icons" style="margin-top: 10px;">
+                                <a href="#" class="mr-2">
+                                    <i class="fa fa-facebook"></i>
+                                </a>
+                                <a href="#" class="mr-2">
+                                    <i class="fa fa-linkedin"></i>
+                                </a>
+                                <a href="#">
+                                    <i class="fa fa-instagram"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <!-- Metal Section -->
+                        <div class="col-lg-3 col-md-6 mb-4">
+                            <h4 style="font-weight: bold;">Metal</h4>
+                            <ul class="list-unstyled" style="color: #ff0000;">
+                                <li>
+                                    <a href="#">Any Type of Metal</a>
+                                </li>
+                                <li>
+                                    <a href="#">Auto Parts</a>
+                                </li>
+                                <li>
+                                    <a href="#">Lawn Equipment</a>
+                                </li>
+                                <li>
+                                    <a href="#">Aluminum Cans</a>
+                                </li>
+                                <li>
+                                    <a href="#">Cable Wires</a>
+                                </li>
+                                <li>
+                                    <a href="#">Plumbing Fixtures &amp; Pipe</a>
+                                </li>
+                                <li>
+                                    <a href="#">Electrical Wiring</a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <!-- Ferrous Metals Section -->
+                        <div class="col-lg-3 col-md-6 mb-4">
+                            <h4 style="font-weight: bold;">Ferrous Metals</h4>
+                            <ul class="list-unstyled" style="color: #ff0000;">
+                                <li>
+                                    <a href="#">Aluminum</a>
+                                </li>
+                                <li>
+                                    <a href="#">Iron</a>
+                                </li>
+                                <li>
+                                    <a href="#">Stainless</a>
+                                </li>
+                                <li>
+                                    <a href="#">Steel</a>
+                                </li>
+                                <li>
+                                    <a href="#">Brass</a>
+                                </li>
+                                <li>
+                                    <a href="#">Copper</a>
+                                </li>
+                                <li>
+                                    <a href="#">Nickel</a>
+                                </li>
+                                <li>
+                                    <a href="#">Titanium</a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="col-lg-3 col-md-6 mb-4">
+                            <h4 style="font-weight: bold;">Non Ferrous Metals</h4>
+                            <ul class="list-unstyled" style="color: #ff0000;">
+                                <li>
+                                    <a href="#">Appliances</a>
+                                </li>
+                                <li>
+                                    <a href="#">Cans</a>
+                                </li>
+                                <li>
+                                    <a href="#">Cars</a>
+                                </li>
+                                <li>
+                                    <a href="#">Radiators</a>
+                                </li>
+                                <li>
+                                    <a href="#">Tin</a>
+                                </li>
+                                <li>
+                                    <a href="#">Tungsten</a>
+                                </li>
+                                <li>
+                                    <a href="#">Turnings</a>
+                                </li>
+                                <li>
+                                    <a href="#">Zinc</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </xpath>
+    </template>
+</odoo>

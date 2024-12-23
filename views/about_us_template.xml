@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <template id="about_page" name="About Us">
+        <t t-call="website.layout">
+            <div class="container testing-class mt-5">
+                <h1>About Us</h1>
+                <p>Welcome to Airzoglobal! We are a leading metal trading company...</p>
+                <p>Testing Of Page Upgrade</p>
+            </div>
+        </t>
+    </template>
+</odoo>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <template id="enquiry_form" name="Enquiry Form">
+        <t t-call="website.layout">
+            <div class="main-enquiry-container">
+                <div class="form-container">
+                <h4>ENQUIRY FORM</h4>
+                <div>
+                    <form>
+                    <div class="form-group">
+                        <label for="fullname">Full Name</label>
+                        <input type="text" id="fullname" class="form-input" name="fullname" />
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" class="form-input" name="email"/>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="organization">Organization</label>
+                        <input type="text" id="organization" class="form-input" name="organization"/>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="phone">Phone Number</label>
+                        <input type="tel" id="phone" class="form-input" name="phone" />
+                    </div>
+
+                    <div class="form-group">
+                        <label for="enquiry">What is your enquiry about?</label>
+                        <select id="enquiry" class="form-input" name="enquiry">
+                            <option value="">Select an option</option>
+                            <option value="option1">Option 1</option>
+                            <option value="option2">Option 2</option>
+                            <option value="option3">Option 3</option>
+                            <option value="option4">Option 4</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="help">How can we help you?</label>
+                        <textarea id="help" name="help" class="form-input text-area-1" placeholder="Describe your issue or question"> </textarea>
+                    </div>
+
+                    <div class="form-actions">
+                        <button type="submit" class="enquiry-submit">Submit</button>
+                    </div>
+                </form>
+                </div>
+            </div>
+                <div class="png-container">
+                    <div>
+                        <img src="https://res.cloudinary.com/drw030kab/image/upload/v1734957250/zdpribmhjowvhdj3lvzl.png" alt="enquiry-png"/>
+                    </div>
+                </div>
+            </div>
+        </t>
+    </template>
+</odoo>

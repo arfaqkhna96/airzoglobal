@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <template id="custom_navbar" name="Custom Navbar" inherit_id="website.layout">
+        <xpath expr="//body" position="inside">
+            <script>
+                document.addEventListener('DOMContentLoaded', function () {
+                    const path = window.location.pathname.replace(/\/$/, '').toLowerCase();
+                    console.log(path);
+                    const navLinks = {
+                        '': 'nav-home',
+                        '/about': 'nav-about',
+                        '/careers': 'nav-careers',
+                        '/news': 'nav-news',
+                        '/contact': 'nav-contact',
+
+                    };
+
+                    // Remove 'active' class from all nav links
+                    document.querySelectorAll('.nav-link').forEach(link => {
+                        link.classList.remove('active');
+                    });
+
+                    // Add 'active' class to the current nav link
+                    const navItem = document.getElementById(navLinks[path]);
+                    if (navItem) {
+                        navItem.classList.add('active');
+                    }
+                });
+
+            </script>
+            <script>
+                    document.addEventListener("DOMContentLoaded", () => {
+                    const aboutUsSection = document.querySelector("#about-us");
+
+                    const observer = new IntersectionObserver(
+                    (entries) => {
+                    entries.forEach((entry) => {
+                    if (entry.isIntersecting) {
+                    aboutUsSection.classList.add("visible");
+                    observer.unobserve(aboutUsSection); // Stop observing after animation triggers
+                    }
+                    });
+                    },
+                    {
+                    threshold: 0.2, // Trigger when 20% of the section is visible
+                    }
+                    );
+
+                    observer.observe(aboutUsSection);
+                    });
+                </script>
+        </xpath>
+        <xpath expr="//header" position="replace">
+            <header>
+                <nav class="navbar navbar-expand-lg navbar-light">
+                    <a class="navbar-brand px-3" href="/">
+                        <img class="main-logo"
+                             src="https://res.cloudinary.com/drw030kab/image/upload/v1734672339/i3wo5e24b52jkc9gdbrn.png"
+                             alt="logo"/>
+                    </a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse px-3" id="navbarNav">
+                        <ul class="navbar-nav main-nav ms-auto">
+                            <li class="nav-item">
+                                <a class="nav-link active" href="/" id="nav-home">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/about" id="nav-about">About Us</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown1" role="button"
+                                   data-bs-toggle="dropdown" aria-expanded="false">
+                                    What We Trading
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown1">
+                                    <li>
+                                        <a class="dropdown-item" href="#">Option 1</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="#">Option 2</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="#">Option 3</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button"
+                                   data-bs-toggle="dropdown" aria-expanded="false">
+                                    Products
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown2">
+                                    <li>
+                                        <a class="dropdown-item" href="#">Product 1</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="#">Product 2</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="#">Product 3</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/careers" id="nav-careers">Careers</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/news" id="nav-news">News</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/contact" id="nav-contact">Contact</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link enquiry-now" id="nav-enquiry" href="/enquiry-now">
+                                    Enquiry Now
+                                </a>
+                            </li>
+                        </ul>
+
+                    </div>
+                </nav>
+            </header>
+        </xpath>
+        <xpath expr="//body" position="inside">
+            <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+            <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        </xpath>
+    </template>
+</odoo>
