@@ -1,0 +1,19 @@
+version: 0.0
+os: ubuntu
+files:
+  - source: /
+    destination: /opt/odoo/odoo/custom_modules
+hooks:
+  BeforeInstall:
+    - location: scripts/stop.sh
+      timeout: 300
+      runas: ubuntu
+  AfterInstall:
+    - location: scripts/update.sh
+      timeout: 300
+      runas: ubuntu
+  ApplicationStart:
+    - location: scripts/start.sh
+      timeout: 300
+      runas: ubuntu
+
