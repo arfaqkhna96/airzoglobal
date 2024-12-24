@@ -49,11 +49,7 @@
                 </form>
                 </div>
             </div>
-                <div class="png-container">
-                    <div>
-                        <img src="https://res.cloudinary.com/drw030kab/image/upload/v1734957250/zdpribmhjowvhdj3lvzl.png" alt="enquiry-png"/>
-                    </div>
-                </div>
+
             </div>
         </t>
     </template>

@@ -4,51 +4,31 @@
         <xpath expr="//body" position="inside">
             <script>
                 document.addEventListener('DOMContentLoaded', function () {
-                    const path = window.location.pathname.replace(/\/$/, '').toLowerCase();
-                    console.log(path);
-                    const navLinks = {
-                        '': 'nav-home',
-                        '/about': 'nav-about',
-                        '/careers': 'nav-careers',
-                        '/news': 'nav-news',
-                        '/contact': 'nav-contact',
+                const path = window.location.pathname.replace(/\/$/, '').toLowerCase();
+                console.log(path);
+                const navLinks = {
+                '': 'nav-home',
+                '/about': 'nav-about',
+                '/careers': 'nav-careers',
+                '/news': 'nav-news',
+                '/contact': 'nav-contact',
 
-                    };
+                };
 
-                    // Remove 'active' class from all nav links
-                    document.querySelectorAll('.nav-link').forEach(link => {
-                        link.classList.remove('active');
-                    });
+                // Remove 'active' class from all nav links
+                document.querySelectorAll('.nav-link').forEach(link => {
+                link.classList.remove('active');
+                });
 
-                    // Add 'active' class to the current nav link
-                    const navItem = document.getElementById(navLinks[path]);
-                    if (navItem) {
-                        navItem.classList.add('active');
-                    }
+                // Add 'active' class to the current nav link
+                const navItem = document.getElementById(navLinks[path]);
+                if (navItem) {
+                navItem.classList.add('active');
+                }
                 });
 
             </script>
-            <script>
-                    document.addEventListener("DOMContentLoaded", () => {
-                    const aboutUsSection = document.querySelector("#about-us");
 
-                    const observer = new IntersectionObserver(
-                    (entries) => {
-                    entries.forEach((entry) => {
-                    if (entry.isIntersecting) {
-                    aboutUsSection.classList.add("visible");
-                    observer.unobserve(aboutUsSection); // Stop observing after animation triggers
-                    }
-                    });
-                    },
-                    {
-                    threshold: 0.2, // Trigger when 20% of the section is visible
-                    }
-                    );
-
-                    observer.observe(aboutUsSection);
-                    });
-                </script>
         </xpath>
         <xpath expr="//header" position="replace">
             <header>
@@ -77,13 +57,13 @@
                                 </a>
                                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown1">
                                     <li>
-                                        <a class="dropdown-item" href="#">Option 1</a>
+                                        <a class="dropdown-item" href="#">Metals</a>
                                     </li>
                                     <li>
-                                        <a class="dropdown-item" href="#">Option 2</a>
+                                        <a class="dropdown-item" href="#">Ferrous Metals</a>
                                     </li>
                                     <li>
-                                        <a class="dropdown-item" href="#">Option 3</a>
+                                        <a class="dropdown-item" href="#">Non-Ferrous Metals</a>
                                     </li>
                                 </ul>
                             </li>
@@ -94,13 +74,28 @@
                                 </a>
                                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown2">
                                     <li>
-                                        <a class="dropdown-item" href="#">Product 1</a>
+                                        <a class="dropdown-item" href="#">Carbon Steel Sheets/Coil</a>
                                     </li>
                                     <li>
-                                        <a class="dropdown-item" href="#">Product 2</a>
+                                        <a class="dropdown-item" href="#">Pipe Made Of Stainless Steel</a>
                                     </li>
                                     <li>
-                                        <a class="dropdown-item" href="#">Product 3</a>
+                                        <a class="dropdown-item" href="#">Round Bars Of Stainless Steel</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="#">Shapes Of Steel I Beam</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="#">Silicon Steels</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="#">Stainless Steel Coils</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="#">Stainless Steel Coils</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="#">Stainless Steel H-Beams</a>
                                     </li>
                                 </ul>
                             </li>
