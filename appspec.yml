@@ -1,7 +1,20 @@
-version: 0.0
-os: ubuntu
-files:
-  - source: /
-    destination: /opt/odoo/odoo/custom_modules
+version: 0.0.1
 
+os: linux
+runtime: python3.9
 
+hooks:
+  BeforeInstall:
+    - execute:
+        command: |
+          sudo /etc/init.d/odoo-server stop
+          git clone https://github.com/arfaqkhna96/airzoglobal.git /opt/odoo/odoo/custom_modules
+
+  AfterDeploy:
+    - execute:
+        command: |
+          sudo /etc/init.d/odoo-server start
+
+deploy:
+  local_files:
+    - {}
