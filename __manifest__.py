@@ -13,6 +13,7 @@
         'views/news_page_template.xml',
         'views/enquiry_form_template.xml',
         'views/footer_view_template.xml',
+        'views/enquiry_success_template.xml'
 
     ],
     'assets': {

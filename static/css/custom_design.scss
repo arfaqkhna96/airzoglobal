@@ -443,7 +443,7 @@ footer h4::after {
 
 
 .testing-class {
-        height: 60vh;
+        min-height: 60vh;
     }
 
 
@@ -459,15 +459,8 @@ footer h4::after {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   overflow: hidden;
   position: relative;
-  opacity: 0;
-  transform: translateY(50px);
-  transition: opacity 0.8s ease, transform 0.8s ease;
 }
 
-.about-us.visible {
-  opacity: 1;
-  transform: translateY(0);
-}
 
 /* Content Section */
 .about-us .content {
@@ -617,6 +610,12 @@ footer h4::after {
     gap:18px;
     }
 
+.contact-heading{
+    color:#ff0000;
+    font-weight:bold;
+    font-size:30px;
+    }
+
 
 @media (max-width:767px){
     .contact-form {
@@ -624,4 +623,58 @@ footer h4::after {
     margin-top:20px;
     margin-bottom:30px;
     }
+    .contact-heading{
+    font-size:20px;
+    }
+    }
+
+/* Success Page Styles */
+
+.success-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        background-color: #f4f7fb;
+    }
+
+    .success-card {
+        background-color: #fff;
+        border-radius: 10px;
+        padding: 30px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        text-align: center;
+        width: 400px;
+        max-width: 90%;
+        margin: auto;
+    }
+
+    .success-card h3 {
+        font-size: 24px;
+        font-weight: 600;
+        color: #ff0000;
+        margin-bottom: 20px;
+    }
+
+    .success-card p {
+        font-size: 16px;
+        color: #777;
+        margin-bottom: 30px;
+    }
+
+    .back-to-homepage {
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: #ff0000;
+        color: #fff;
+        font-size: 16px;
+        font-weight: 600;
+        border-radius: 5px;
+        text-decoration: none;
+        transition: background-color 0.3s ease;
+    }
+
+    .back-to-homepage:hover {
+        text-decoration:none;
+        background-color: #ff0000;
     }
