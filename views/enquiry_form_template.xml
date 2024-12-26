@@ -4,7 +4,7 @@
         <t t-call="website.layout">
             <div class="main-enquiry-container">
                 <div class="form-container">
-                <h4>ENQUIRY FORM</h4>
+                    <h4>ENQUIRY FORM</h4>
                 <div>
                     <form>
                     <div class="form-group">
