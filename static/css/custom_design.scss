@@ -154,7 +154,8 @@
 .carousel-control-next-icon {
     width: 20px;
     height: 20px;
-    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    color:black;
+    background-color: rgba(255, 255, 255, 0.5); /* Semi-transparent background */
     border-radius: 50%; /* Circular arrows */
 }
 
@@ -611,7 +612,7 @@ footer h4::after {
     }
 
 .contact-heading{
-    color:#ff0000;
+    color:black;
     font-weight:bold;
     font-size:30px;
     }

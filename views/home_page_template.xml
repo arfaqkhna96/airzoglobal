@@ -23,7 +23,7 @@
                             <p class="text-white">The base metal that adheres to a magnet is known as ferrous scrap
                                 metal. Arizo Scrap offers ferrous processing.
                             </p>
-                            <a href="#" class="btn read-more mt-3">Read More</a>
+                           <!-- <a href="#" class="btn read-more mt-3">Read More</a> -->
                         </div>
                     </div>
 
@@ -38,7 +38,7 @@
                             <p class="text-white">Say goodbye to the hassle of complicated manual sorting and opt for
                                 our automated scrap recycling processes.
                             </p>
-                            <a href="#" class="btn read-more mt-3">Read More</a>
+                           <!-- <a href="#" class="btn read-more mt-3">Read More</a> -->
                         </div>
                     </div>
                 </div>

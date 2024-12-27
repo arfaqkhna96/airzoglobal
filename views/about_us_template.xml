@@ -16,7 +16,7 @@
                                 our unwavering commitment to excellence, integrity, and customer
                                 satisfaction, with a strong foundation in the industry.
                             </p>
-                            <button class="btn btn-danger" style="font-size:16px; height:40px;">Learn More</button>
+                          <!--  <button class="btn btn-danger" style="font-size:16px; height:40px;">Learn More</button>-->
                         </div>
                         <div class="images">
                             <img src="https://res.cloudinary.com/drw030kab/image/upload/v1734782665/pgzkjumuoifcf6djslgg.png"
