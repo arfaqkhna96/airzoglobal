@@ -1,0 +1,883 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <template id="card_any_type_of_metal_details" name="Any Type of Metal Details">
+        <t t-call="website.layout">
+            <div class="container mt-5">
+                <h2 class="card-heading-main">Any Type of Metal</h2>
+                <div class="row">
+                    <div class="col-md-12 mb-4">
+                        <div class="card shadow-sm text-center">
+                            <img t-att-src="'https://res.cloudinary.com/drw030kab/image/upload/v1735622876/arizogroup/gvofzizavcu7zqjzk6gj.jpg'"
+                                 alt="Any Type of Metal" class="card-img-main"
+                                 style="width: 70%; height: 40%; object-fit: cover;"/>
+                            <div class="card-body">
+                                <p class="card-text-full">Metals form the foundation of many industries, from
+                                    construction
+                                    and manufacturing to transportation and technology. With a wide variety of metals
+                                    available, it is essential to choose the right one for the job. Whether you're
+                                    working with stainless steel, aluminum, copper, or brass, each metal has distinct
+                                    properties that make it suitable for specific applications. Our extensive selection
+                                    ensures that you have access to high-quality materials that meet your project’s
+                                    needs, whether it’s for large-scale construction or intricate manufacturing
+                                    processes. We are committed to providing you with the best in terms of quality,
+                                    pricing, and service, ensuring that your projects run smoothly.
+                                </p>
+                                <p class="card-text-full">One of the key advantages of working with metals is their
+                                    durability. Metals are known for their long-lasting strength and resistance to wear
+                                    and tear, making them ideal for both indoor and outdoor applications. From the
+                                    robustness of steel in structural components to the corrosion resistance of aluminum
+                                    in outdoor applications, our metals offer a range of properties that help extend the
+                                    life of your products. Additionally, metals are highly versatile, allowing for
+                                    various forms such as sheets, rods, and pipes, providing the flexibility needed for
+                                    different projects. Our products meet strict industry standards, ensuring that you
+                                    can trust them for any task.
+                                </p>
+                                <p class="card-text-full">At our store, we don’t just provide raw materials; we offer
+                                    expert
+                                    advice and support to help you choose the right metal for your specific application.
+                                    With our comprehensive inventory and industry expertise, we make the selection
+                                    process easier. Our team is dedicated to providing personalized assistance and
+                                    ensuring that you have all the necessary information to make informed decisions.
+                                    Whether you need a small quantity for a home project or large-scale supplies for
+                                    industrial work, we deliver the metals you need when you need them, helping you
+                                    achieve the best results every time.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </t>
+    </template>
+
+    <template id="card_auto_parts_details" name="Auto Parts Details">
+        <t t-call="website.layout">
+            <div class="container mt-5">
+                <h2 class="card-heading-main">Auto Parts</h2>
+                <div class="row">
+                    <div class="col-md-12 mb-4">
+                        <div class="card shadow-sm text-center">
+                            <img t-att-src="'https://res.cloudinary.com/drw030kab/image/upload/v1735622877/arizogroup/rx3aauqd3oxlho70owib.jpg'"
+                                 alt="Auto Parts" class="card-img-main"
+                                 style="width: 70%; height: 40%; object-fit: cover;"/>
+                            <div class="card-body">
+
+                                <p class="card-text-full">When it comes to auto parts, quality and reliability are
+                                    crucial.
+                                    At our store, we offer a wide range of auto parts to meet the needs of all vehicle
+                                    types, from everyday cars to heavy-duty trucks. Our products include engine
+                                    components, transmission parts, suspension systems, electrical systems, and much
+                                    more. Each part is carefully sourced from trusted manufacturers, ensuring that you
+                                    get durable and dependable components for all your repair and maintenance needs.
+                                    With our comprehensive inventory, you can find the right part for your vehicle with
+                                    ease.
+                                </p>
+                                <p class="card-text-full">In addition to offering quality auto parts, we also provide
+                                    competitive pricing and excellent customer service. Our team of experts is available
+                                    to guide you in selecting the right components for your specific make and model.
+                                    Whether you're a DIY enthusiast or a professional mechanic, we can help you make the
+                                    best decision for your vehicle. We understand how important it is to get your
+                                    vehicle back on the road quickly, which is why we offer fast and efficient shipping
+                                    to ensure that your parts arrive when you need them.
+                                </p>
+                                <p class="card-text-full">Beyond providing high-quality products, we also believe in
+                                    offering
+                                    long-term support. If you're unsure about a part's compatibility or need assistance
+                                    with installation, our team is here to help. Our goal is to build long-lasting
+                                    relationships with our customers, ensuring that you have access to the best parts
+                                    and services whenever you need them. Explore our wide range of auto parts today and
+                                    discover why we’re a trusted source for all your vehicle repair and maintenance
+                                    needs.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </t>
+    </template>
+
+    <template id="card_lawn_equipment_details" name="Lawn Equipment Details">
+        <t t-call="website.layout">
+            <div class="container mt-5">
+                <h2 class="card-heading-main">Lawn Equipment</h2>
+                <div class="row">
+                    <div class="col-md-12 mb-4">
+                        <div class="card shadow-sm text-center">
+                            <img t-att-src="'https://res.cloudinary.com/drw030kab/image/upload/v1735622875/arizogroup/if81ojdmafetnpmkae4t.jpg'"
+                                 alt="Lawn Equipment" class="card-img-main"
+                                 style="width: 70%; height: 40%; object-fit: cover;"/>
+                            <div class="card-body">
+                                <p class="card-text-full">Maintaining a beautiful lawn requires the right equipment. At
+                                    our
+                                    store, we offer a wide selection of lawn care tools, including mowers, trimmers,
+                                    blowers, and more. Each product is designed to help you achieve a perfectly
+                                    manicured lawn with ease. Whether you're looking for a push mower for small lawns or
+                                    a riding mower for larger areas, we have equipment that caters to all lawn sizes.
+                                    Our high-performance tools ensure a clean, precise cut every time, helping you
+                                    maintain a healthy, lush yard throughout the year.
+                                </p>
+                                <p class="card-text-full">In addition to lawn mowers, we also offer a variety of other
+                                    lawn
+                                    care equipment such as leaf blowers, aerators, and hedge trimmers. These tools allow
+                                    you to keep your lawn in top condition, making lawn care easier and more efficient.
+                                    All our products are designed with durability and ease of use in mind, so you can
+                                    spend less time maintaining your equipment and more time enjoying your outdoor
+                                    space. We offer equipment from trusted brands, ensuring that you get the best
+                                    quality at competitive prices.
+                                </p>
+                                <p class="card-text-full">Our goal is to help you choose the right equipment that fits
+                                    your
+                                    needs. If you're unsure which tools are best for your lawn, our knowledgeable staff
+                                    is here to provide expert advice. We can assist with product selection, offer
+                                    maintenance tips, and help you get the most out of your investment. Whether you're a
+                                    professional landscaper or a homeowner maintaining your garden, we have the tools
+                                    you need to make lawn care a breeze.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </t>
+    </template>
+
+    <template id="card_aluminium_cans_details" name="Aluminium Cans Details">
+        <t t-call="website.layout">
+            <div class="container mt-5">
+                <h2 class="card-heading-main">Aluminium Cans</h2>
+                <div class="row">
+                    <div class="col-md-12 mb-4">
+                        <div class="card shadow-sm text-center">
+                            <img t-att-src="'https://res.cloudinary.com/drw030kab/image/upload/v1735623426/arizogroup/eft9rrrmbzlaujzz3c0l.jpg'"
+                                 alt="Aluminium Cans" class="card-img-main"
+                                 style="width: 70%; height: 40%; object-fit: cover;"/>
+                            <div class="card-body">
+                                <p class="card-text-full">Aluminium cans are one of the most commonly used forms of
+                                    packaging, especially for beverages. They are lightweight, durable, and recyclable,
+                                    making them an environmentally friendly choice. Aluminium is a highly versatile
+                                    material, and it is widely used in industries that require lightweight and strong
+                                    packaging solutions. At our store, we offer a variety of aluminium cans in different
+                                    sizes and designs, all of which are ideal for storing everything from soda and beer
+                                    to energy drinks and bottled water.
+                                </p>
+                                <p class="card-text-full">The benefits of using aluminium cans go beyond their
+                                    eco-friendly
+                                    nature. Aluminium is an excellent conductor of heat, which helps to keep beverages
+                                    cold for longer periods. The material is also resistant to corrosion and can
+                                    withstand the rigors of transportation, ensuring that your products arrive at their
+                                    destination in perfect condition. Our aluminium cans come in a variety of finishes,
+                                    including smooth, embossed, and matte, offering flexibility for branding and product
+                                    packaging.
+                                </p>
+                                <p class="card-text-full">We are committed to offering high-quality aluminium cans that
+                                    meet
+                                    the needs of businesses across various industries. Whether you're looking for cans
+                                    for a new product launch or need bulk orders for ongoing production, we can provide
+                                    the perfect packaging solution. With our commitment to sustainability, we encourage
+                                    recycling and the use of eco-friendly materials to reduce waste and environmental
+                                    impact. Choose aluminium cans for your packaging needs and make a sustainable choice
+                                    that benefits both your business and the planet.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </t>
+    </template>
+
+    <template id="card_cable_wires_details" name="Cable Wires Details">
+        <t t-call="website.layout">
+            <div class="container mt-5">
+                <h2 class="card-heading-main">Cable Wires</h2>
+                <div class="row">
+                    <div class="col-md-12 mb-4">
+                        <div class="card shadow-sm text-center">
+                            <img src="https://res.cloudinary.com/drw030kab/image/upload/v1735622882/arizogroup/dacpzdatbldacffr5pv5.jpg"
+                                 alt="Cable Wires" class="card-img-main"
+                                 style="width: 70%; height: 40%; object-fit: cover;"/>
+                            <div class="card-body">
+                                <p class="card-text-full">Cable wires are a critical component in electrical systems,
+                                    used to
+                                    transfer electrical current in a safe and efficient manner. Whether you're working
+                                    on residential, commercial, or industrial projects, having the right type of cable
+                                    is essential to ensure the reliability of your electrical installations. Our range
+                                    of cable wires includes options for various applications, including power cables,
+                                    communication cables, and specialty wires, all designed to meet the highest
+                                    standards of safety and performance. With the right cable, you can be assured of
+                                    uninterrupted power supply and minimized electrical hazards.
+                                </p>
+                                <p class="card-text-full">We understand that different projects require different types
+                                    of
+                                    cables, which is why we offer an extensive selection. From low-voltage wires for
+                                    household use to high-voltage cables for industrial settings, we provide cables that
+                                    suit every need. All of our cables are made from high-quality materials such as
+                                    copper and aluminum, ensuring that they offer optimal conductivity and resistance to
+                                    wear and tear. Whether you need flexible cables for tight spaces or heavy-duty
+                                    cables for industrial machinery, our inventory has the right solutions to meet your
+                                    requirements.
+                                </p>
+                                <p class="card-text-full">At our store, we not only offer quality cable wires but also
+                                    offer
+                                    expert advice to help you make the right choice for your project. Our team is
+                                    knowledgeable about electrical systems and can provide you with guidance on the best
+                                    cable types for specific applications, whether it's wiring a home, setting up a
+                                    factory, or creating a complex electrical network. With reliable shipping and bulk
+                                    order options, we ensure that you get the cable wires you need on time, making your
+                                    projects more efficient and safe. Trust us for your cable wire needs and take
+                                    advantage of our expert service and competitive prices.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </t>
+    </template>
+
+    <template id="card_plumbing_fixtures_details" name="Plumbing Fixtures and Pipe Details">
+        <t t-call="website.layout">
+            <div class="container mt-5">
+                <h2 class="card-heading-main">Plumbing Fixtures and Pipe</h2>
+                <div class="row">
+                    <div class="col-md-12 mb-4">
+                        <div class="card shadow-sm text-center">
+                            <img t-att-src="'https://res.cloudinary.com/drw030kab/image/upload/v1735622879/arizogroup/timujpnttq2tpd3xfu0a.jpg'"
+                                 alt="Plumbing Fixtures and Pipe" class="card-img-main"
+                                 style="width: 70%; height: 40%; object-fit: cover;"/>
+                            <div class="card-body">
+                                <p class="card-text-full">Plumbing fixtures and pipes are essential components for any
+                                    residential or commercial plumbing system. Whether you’re constructing a new
+                                    building or renovating an existing property, having access to high-quality plumbing
+                                    materials is crucial for ensuring long-term performance and durability. We offer a
+                                    wide selection of plumbing fixtures and pipes, including faucets, showerheads,
+                                    sinks, bathtubs, and piping solutions for both water and waste systems. Our products
+                                    are sourced from reputable manufacturers and are designed to meet the highest
+                                    standards of reliability and quality.
+                                </p>
+                                <p class="card-text-full">When it comes to plumbing, the material of the pipes is of
+                                    utmost
+                                    importance. We offer a variety of pipes made from materials such as PVC, copper,
+                                    PEX, and galvanized steel, each suitable for different types of installations. PVC
+                                    pipes are perfect for drainage systems, while copper pipes are known for their
+                                    reliability in water supply systems. Our range of piping materials is designed to
+                                    ensure maximum strength and resistance to corrosion, making them ideal for both
+                                    residential and commercial plumbing applications. With the right pipes, you can
+                                    avoid leaks and water damage, ensuring a safe and functional plumbing system.
+                                </p>
+                                <p class="card-text-full">In addition to pipes, we also offer a variety of plumbing
+                                    fixtures
+                                    that help create functional and aesthetically pleasing bathrooms and kitchens. From
+                                    modern faucets to durable sinks and bathtubs, we have everything you need to enhance
+                                    your plumbing system’s performance. Our fixtures come in a wide range of styles and
+                                    finishes, ensuring that they complement any design. Whether you’re updating your
+                                    home or working on a large-scale commercial project, our plumbing fixtures and pipes
+                                    offer both functionality and beauty. Explore our selection today and take the first
+                                    step towards creating a high-quality plumbing system.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </t>
+    </template>
+
+    <template id="card_electrical_wiring_details" name="Electrical Wiring Details">
+        <t t-call="website.layout">
+            <div class="container mt-5">
+                <h2 class="card-heading-main">Electrical Wiring</h2>
+                <div class="row">
+                    <div class="col-md-12 mb-4">
+                        <div class="card shadow-sm text-center">
+                            <img t-att-src="'https://res.cloudinary.com/drw030kab/image/upload/v1735622876/arizogroup/uf7yvrfp4htyzkgkffcl.jpg'"
+                                 alt="Electrical Wiring" class="card-img-main"
+                                 style="width: 70%; height: 40%; object-fit: cover;"/>
+                            <div class="card-body">
+                                <p class="card-text-full">Electrical wiring is a fundamental aspect of any electrical
+                                    installation. It ensures the safe and efficient distribution of electrical power
+                                    across buildings and structures. At our store, we offer a wide range of electrical
+                                    wiring options, including low-voltage and high-voltage wires, as well as specialized
+                                    wiring for different applications. Whether you're wiring a new construction,
+                                    renovating an existing building, or upgrading your current system, we have the right
+                                    wiring solutions to suit your needs. Our wiring products are designed to meet the
+                                    latest safety standards, ensuring that your electrical systems are both reliable and
+                                    secure.
+                                </p>
+                                <p class="card-text-full">Our electrical wiring is made from high-quality materials,
+                                    including copper and aluminum, which offer excellent conductivity and durability.
+                                    Copper wires are particularly well-suited for applications that require
+                                    high-performance and long-lasting reliability, while aluminum wires are a
+                                    cost-effective alternative for less demanding installations. In addition to standard
+                                    wiring, we also provide cables for specialized purposes, such as fire-resistant
+                                    cables, underground cables, and cables for high-temperature environments. No matter
+                                    what your project entails, we can supply the right wiring to meet the specific
+                                    requirements of your electrical system.
+                                </p>
+                                <p class="card-text-full">At our store, we go beyond just offering wiring products—we
+                                    provide
+                                    expert guidance and support to help you choose the right wire for your application.
+                                    Our team of professionals is available to answer any questions you have about wire
+                                    types, installation methods, and industry standards. We also offer fast shipping and
+                                    bulk order options, ensuring that you get the materials you need when you need them.
+                                    With our extensive selection of electrical wiring products, you can trust that your
+                                    installation will be safe, efficient, and built to last.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </t>
+    </template>
+
+    <template id="card_iron_details" name="Iron Details">
+        <t t-call="website.layout">
+            <div class="container mt-5">
+                <h2 class="card-heading-main">Iron</h2>
+                <div class="row">
+                    <div class="col-md-12 mb-4">
+                        <div class="card shadow-sm text-center">
+                            <img t-att-src="'https://res.cloudinary.com/drw030kab/image/upload/v1735649750/arizogroup/iron-2439297_yh8v0s.jpg'"
+                                 alt="Iron" class="card-img-main"
+                                 style="width: 70%; height: 40%; object-fit: cover;"/>
+                            <div class="card-body">
+                                <p class="card-text-full">Iron is one of the most widely used metals in the world due to
+                                    its
+                                    versatility and abundance. It is a key material in industries such as construction,
+                                    manufacturing, automotive, and more. Iron is valued for its strength, durability,
+                                    and ability to be easily fabricated into a wide variety of shapes and sizes. Whether
+                                    used in structural components like beams and frames, or in the production of tools
+                                    and machinery, iron plays an integral role in the infrastructure that supports
+                                    modern life. At our store, we offer a wide selection of iron products for various
+                                    applications, including rods, bars, sheets, and castings.
+                                </p>
+                                <p class="card-text-full">One of the major advantages of iron is its ability to be
+                                    easily
+                                    alloyed with other metals, such as carbon, to create materials like steel, which
+                                    further enhance its properties. Steel, which is made by adding carbon to iron, is
+                                    stronger, more durable, and resistant to corrosion, making it ideal for heavy-duty
+                                    applications. Our iron products are available in a range of grades and
+                                    specifications, making them suitable for both light-duty and heavy-duty
+                                    applications. Whether you're working on a construction project, manufacturing
+                                    equipment, or repairing machinery, we have the right iron products to meet your
+                                    needs.
+                                </p>
+                                <p class="card-text-full">In addition to its practical uses, iron is also an
+                                    environmentally
+                                    friendly material, as it is highly recyclable. Recycling iron reduces the need for
+                                    new mining, which helps conserve natural resources and minimizes environmental
+                                    impact. We offer iron products that are sourced from sustainable and responsible
+                                    suppliers, ensuring that you get high-quality materials while also supporting
+                                    environmentally responsible practices. Choose iron for your next project and take
+                                    advantage of its strength, versatility, and sustainability for a wide variety of
+                                    applications.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </t>
+    </template>
+
+    <template id="card_steel_details" name="Steel Details">
+        <t t-call="website.layout">
+            <div class="container mt-5">
+                <h2 class="card-heading-main">Steel</h2>
+                <div class="row">
+                    <div class="col-md-12 mb-4">
+                        <div class="card shadow-sm text-center">
+                            <img t-att-src="'https://res.cloudinary.com/drw030kab/image/upload/v1735649748/arizogroup/steel-frame-420722_fzyn5g.jpg'"
+                                 alt="Steel" class="card-img-main"
+                                 style="width: 70%; height: 40%; object-fit: cover;"/>
+                            <div class="card-body">
+                                <p class="card-text-full">
+                                    Steel is a versatile and durable alloy made primarily of iron and carbon. Renowned
+                                    for its high tensile strength and ability to withstand heavy loads, steel is a
+                                    cornerstone material in numerous industries, from construction to manufacturing. Its
+                                    resistance to deformation under stress and its ability to be molded into various
+                                    shapes make it indispensable for creating structural frameworks, machinery, and
+                                    transportation systems.
+                                </p>
+                                <p class="card-text-full">
+                                    Beyond strength, steel offers excellent corrosion resistance when alloyed with
+                                    elements like chromium to create stainless steel. This makes it suitable for
+                                    environments exposed to moisture or harsh conditions. Its recyclability further
+                                    underscores its environmental appeal, as repurposed steel retains its original
+                                    properties without degradation.
+                                </p>
+                                <p class="card-text-full">
+                                    From reinforcing buildings and bridges to producing household tools and appliances,
+                                    steel's adaptability is unmatched. Specialized grades of steel are engineered to
+                                    meet specific demands, such as high heat resistance in industrial furnaces or
+                                    lightweight properties for automotive parts. With its combination of strength,
+                                    flexibility, and sustainability, steel continues to play a pivotal role in advancing
+                                    modern infrastructure and technology.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </t>
+    </template>
+
+    <template id="card_aluminium_details" name="Aluminium Details">
+        <t t-call="website.layout">
+            <div class="container mt-5">
+                <h2 class="card-heading-main">Aluminium</h2>
+                <div class="row">
+                    <div class="col-md-12 mb-4">
+                        <div class="card shadow-sm text-center">
+                            <img t-att-src="'https://res.cloudinary.com/drw030kab/image/upload/v1735649747/arizogroup/863681_O6DXDX0_hwphrc.jpg'"
+                                 alt="Aluminium" class="card-img-main"
+                                 style="width: 70%; height: 40%; object-fit: cover;"/>
+                            <div class="card-body">
+                                <p class="card-text-full">
+                                    Aluminium is a lightweight yet robust metal renowned for its corrosion resistance
+                                    and versatility. Its remarkable strength-to-weight ratio makes it an essential
+                                    material across industries like aerospace, automotive, and construction.
+                                </p>
+                                <p class="card-text-full">
+                                    Unlike heavier metals, aluminium is easy to handle and transport, offering reduced
+                                    energy consumption during processing and application. Its natural oxide layer
+                                    provides exceptional protection against environmental degradation, extending its
+                                    lifespan even in challenging conditions.
+                                </p>
+                                <p class="card-text-full">
+                                    Aluminium is also highly recyclable, retaining its original properties after
+                                    reprocessing. This feature, combined with its adaptability and efficiency, has
+                                    established it as a sustainable choice for modern manufacturing needs.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </t>
+    </template>
+
+    <template id="card_copper_details" name="Copper Details">
+        <t t-call="website.layout">
+            <div class="container mt-5">
+                <h2 class="card-heading-main">Copper</h2>
+                <div class="row">
+                    <div class="col-md-12 mb-4">
+                        <div class="card shadow-sm text-center">
+                            <img t-att-src="'https://res.cloudinary.com/drw030kab/image/upload/v1735649749/arizogroup/copper-1504098_mus7g3.jpg'"
+                                 alt="Copper" class="card-img-main"
+                                 style="width: 70%; height: 40%; object-fit: cover;"/>
+                            <div class="card-body">
+                                <p class="card-text-full">
+                                    Copper is a highly conductive metal that has been a cornerstone of technological
+                                    advancements for centuries. Its exceptional thermal and electrical conductivity
+                                    makes it indispensable in the manufacturing of electrical wiring, motors, and
+                                    transformers.
+                                </p>
+                                <p class="card-text-full">
+                                    In addition to its electrical properties, copper is also widely used in plumbing
+                                    systems due to its resistance to corrosion and bacteriostatic properties, which help
+                                    maintain water quality. This metal’s malleability and ductility allow it to be
+                                    formed into various shapes, ensuring its utility in diverse applications.
+                                </p>
+                                <p class="card-text-full">
+                                    Beyond industrial uses, copper is celebrated for its aesthetic appeal in
+                                    architectural elements, jewelry, and art. Its natural patina adds a distinctive look
+                                    over time, making it a timeless material for decorative purposes.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </t>
+    </template>
+
+    <template id="card_brass_details" name="Brass Details">
+        <t t-call="website.layout">
+            <div class="container mt-5">
+                <h2 class="card-heading-main">Brass</h2>
+                <div class="row">
+                    <div class="col-md-12 mb-4">
+                        <div class="card shadow-sm text-center">
+                            <img t-att-src="'https://res.cloudinary.com/drw030kab/image/upload/a_90/v1735649751/arizogroup/pexels-karolina-grabowska-5202425_xu2jvk.jpg'"
+                                 alt="Brass" class="card-img-main"
+                                 style="width: 70%; height: 40%; object-fit: cover;"/>
+                            <div class="card-body">
+                                <p class="card-text-full">
+                                    Brass is an alloy of copper and zinc, prized for its durability, corrosion
+                                    resistance, and gold-like appearance. Its ability to withstand harsh environmental
+                                    conditions makes it ideal for maritime applications, plumbing fixtures, and
+                                    decorative hardware.
+                                </p>
+                                <p class="card-text-full">
+                                    Known for its excellent acoustic properties, brass is also widely used in the
+                                    production of musical instruments like trumpets, trombones, and saxophones. Its
+                                    smooth surface and machinability make it suitable for crafting intricate designs and
+                                    shapes.
+                                </p>
+                                <p class="card-text-full">
+                                    With its combination of strength, beauty, and versatility, brass remains a material
+                                    of choice in various fields, from industrial manufacturing to fine arts and crafts.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </t>
+    </template>
+
+    <template id="card_nickel_details" name="Nickel Details">
+        <t t-call="website.layout">
+            <div class="container mt-5">
+                <h2 class="card-heading-main">Nickel</h2>
+                <div class="row">
+                    <div class="col-md-12 mb-4">
+                        <div class="card shadow-sm text-center">
+                            <img t-att-src="'https://res.cloudinary.com/drw030kab/image/upload/v1735649748/arizogroup/c-lipped-channel-5528517_ahbmxy.jpg'"
+                                 alt="Nickel" class="card-img-main"
+                                 style="width: 70%; height: 40%; object-fit: cover;"/>
+                            <div class="card-body">
+                                <p class="card-text-full">
+                                    Nickel is a versatile and corrosion-resistant metal that plays a vital role in the
+                                    production of alloys. Known for its toughness and strength, it is commonly used in
+                                    stainless steel, batteries, and coins.
+                                </p>
+                                <p class="card-text-full">
+                                    This metal's resistance to high temperatures and wear makes it ideal for industrial
+                                    applications, including jet engines, chemical processing equipment, and electronics.
+                                    Nickel-based alloys are especially crucial in the aerospace and energy sectors.
+                                </p>
+                                <p class="card-text-full">
+                                    Nickel's versatility and durability ensure its continued importance in modern
+                                    industry and technology, making it an essential material for advancing innovation
+                                    and sustainability.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </t>
+    </template>
+
+    <template id="card_titanium_details" name="Titanium Details">
+        <t t-call="website.layout">
+            <div class="container mt-5">
+                <h2 class="card-heading-main">Titanium</h2>
+                <div class="row">
+                    <div class="col-md-12 mb-4">
+                        <div class="card shadow-sm text-center">
+                            <img t-att-src="'https://res.cloudinary.com/drw030kab/image/upload/v1735649749/arizogroup/pexels-rolledalloys-metal-supply-8940820_ntkbi4.jpg'"
+                                 alt="Titanium" class="card-img-main"
+                                 style="width: 70%; height: 40%; object-fit: cover;"/>
+                            <div class="card-body">
+                                <p class="card-text-full">
+                                    Titanium is a lightweight yet incredibly strong metal known for its excellent
+                                    corrosion resistance and durability. It is a preferred material for aerospace
+                                    applications, where strength and low weight are critical.
+                                </p>
+                                <p class="card-text-full">
+                                    Beyond aerospace, titanium is widely used in medical implants due to its
+                                    biocompatibility and resistance to body fluids. It is also found in high-performance
+                                    sports equipment, industrial machinery, and marine applications.
+                                </p>
+                                <p class="card-text-full">
+                                    The unique properties of titanium make it an indispensable material in industries
+                                    where performance, longevity, and reliability are paramount.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </t>
+    </template>
+
+    <template id="card_zinc_details" name="Zinc Details">
+        <t t-call="website.layout">
+            <div class="container mt-5">
+                <h2 class="card-heading-main">Zinc</h2>
+                <div class="row">
+                    <div class="col-md-12 mb-4">
+                        <div class="card shadow-sm text-center">
+                            <img t-att-src="'https://res.cloudinary.com/drw030kab/image/upload/v1735708675/large-steel-factory-warehouse_jlz5ie.jpg'"
+                                 alt="Zinc" class="card-img-main"
+                                 style="width: 70%; height: 40%; object-fit: cover;"/>
+                            <div class="card-body">
+                                <p class="card-text-full">
+                                    Zinc is widely recognized for its role in galvanizing steel and iron to prevent
+                                    corrosion. This protective coating significantly extends the life of materials
+                                    exposed to harsh environments.
+                                </p>
+                                <p class="card-text-full">
+                                    In addition to galvanization, zinc is an essential component in batteries, alloys
+                                    such as brass, and die-casting processes for manufacturing complex metal components.
+                                    It is also used in building materials and pharmaceutical products.
+                                </p>
+                                <p class="card-text-full">
+                                    With its versatility and cost-effectiveness, zinc continues to play a crucial role
+                                    in industrial and commercial applications worldwide.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </t>
+    </template>
+
+    <template id="card_tungsten_details" name="Tungsten Details">
+        <t t-call="website.layout">
+            <div class="container mt-5">
+                <h2 class="card-heading-main">Tungsten</h2>
+                <div class="row">
+                    <div class="col-md-12 mb-4">
+                        <div class="card shadow-sm text-center">
+                            <img t-att-src="'https://res.cloudinary.com/drw030kab/image/upload/v1735710415/Screenshot_2025-01-01_103115_l4c35m.png'"
+                                 alt="Tungsten" class="card-img-main"
+                                 style="width: 70%; height: 40%; object-fit: cover;"/>
+                            <div class="card-body">
+                                <p class="card-text-full">
+                                    Tungsten is renowned for its incredibly high melting point and exceptional strength.
+                                    It is commonly used in heavy-duty industrial applications, such as cutting tools,
+                                    mining machinery, and high-temperature furnaces.
+                                </p>
+                                <p class="card-text-full">
+                                    Its density and hardness make tungsten an essential material in military
+                                    applications, aerospace engineering, and the production of electrical filaments for
+                                    lighting.
+                                </p>
+                                <p class="card-text-full">
+                                    Tungsten's durability and versatility ensure its critical role in industries
+                                    requiring materials that can withstand extreme stress and heat.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </t>
+    </template>
+
+    <template id="card_tin_details" name="Tin Details">
+        <t t-call="website.layout">
+            <div class="container mt-5">
+                <h2 class="card-heading-main">Tin</h2>
+                <div class="row">
+                    <div class="col-md-12 mb-4">
+                        <div class="card shadow-sm text-center">
+                            <img t-att-src="'https://res.cloudinary.com/drw030kab/image/upload/v1735708675/high-angle-tall-tin-cans_scyd0r.jpg'"
+                                 alt="Tin" class="card-img-main"
+                                 style="width: 70%; height: 40%; object-fit: cover;"/>
+                            <div class="card-body">
+                                <p class="card-text-full">
+                                    Tin is widely used to coat steel and other metals, providing protection against
+                                    corrosion. This application is especially common in the production of food and
+                                    beverage containers, ensuring product safety and longevity.
+                                </p>
+                                <p class="card-text-full">
+                                    In addition to its anti-corrosion properties, tin is a vital component in soldering,
+                                    where its low melting point allows for easy and secure connections in electronics
+                                    and plumbing.
+                                </p>
+                                <p class="card-text-full">
+                                    As a key ingredient in various alloys, such as bronze, tin has played an essential
+                                    role in human history and continues to be a valuable resource in modern
+                                    manufacturing.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </t>
+    </template>
+
+
+    <!-- Cars Template without "Read More" -->
+    <template id="card_cars_details" name="Cars Details">
+        <t t-call="website.layout">
+            <div class="container mt-5">
+                <h2 class="card-heading-main">Cars</h2>
+                <div class="row">
+                    <div class="col-md-12 mb-4">
+                        <div class="card shadow-sm text-center">
+                            <img t-att-src="'https://res.cloudinary.com/drw030kab/image/upload/v1735708679/4019_uq00q2.jpg'"
+                                 alt="Cars" class="card-img-main"
+                                 style="width: 70%; height: 40%; object-fit: cover;"/>
+                            <div class="card-body">
+                                <p class="card-text-full">
+                                    Scrap cars represent a significant source of recyclable materials, particularly
+                                    metals like aluminum, copper, and steel. These metals can be extracted and processed
+                                    for reuse in various industries, reducing the need for raw material mining. The
+                                    recycling process helps conserve natural resources while minimizing environmental
+                                    impact.
+                                </p>
+                                <p class="card-text-full">
+                                    Beyond their metals, scrap cars may also contain reusable components such as
+                                    batteries, catalytic converters, and tires, which can be repurposed or sold in
+                                    secondary markets. This makes the recycling of old vehicles an economically and
+                                    environmentally sound practice.
+                                </p>
+                                <p class="card-text-full">
+                                    By recycling scrap cars, industries can reduce landfill waste and promote a circular
+                                    economy. This process contributes to a sustainable future by ensuring valuable
+                                    materials are not wasted but instead reintegrated into manufacturing cycles.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </t>
+    </template>
+
+    <template id="card_turnings_details" name="Turnings Details">
+        <t t-call="website.layout">
+            <div class="container mt-5">
+                <h2 class="card-heading-main">Turnings</h2>
+                <div class="row">
+                    <div class="col-md-12 mb-4">
+                        <div class="card shadow-sm text-center">
+                            <img t-att-src="'https://res.cloudinary.com/drw030kab/image/upload/v1735708677/9377334967_oxnxmi.png'"
+                                 alt="Turnings" class="card-img-main"
+                                 style="width: 70%; height: 40%; object-fit: cover;"/>
+                            <div class="card-body">
+                                <p class="card-text-full">
+                                    Turnings are small chips or shavings of metal generated during machining operations
+                                    such as milling, drilling, or grinding. These by-products, though often overlooked,
+                                    hold immense value due to the high-quality metal they contain, which can be recycled
+                                    into new products.
+                                </p>
+                                <p class="card-text-full">
+                                    The recycling of turnings reduces the demand for virgin materials, conserving energy
+                                    and lowering production costs. Industries such as automotive, aerospace, and
+                                    manufacturing benefit greatly from this process, as recycled metals maintain similar
+                                    properties to freshly mined metals.
+                                </p>
+                                <p class="card-text-full">
+                                    Proper handling and recycling of turnings also help mitigate environmental concerns.
+                                    When left untreated, these metal scraps can oxidize or contaminate surrounding
+                                    environments. Recycling ensures these materials are processed responsibly,
+                                    contributing to sustainable industrial practices.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </t>
+    </template>
+
+    <template id="card_appliances_details" name="Appliances Details">
+        <t t-call="website.layout">
+            <div class="container mt-5">
+                <h2 class="card-heading-main">Appliances</h2>
+                <div class="row">
+                    <div class="col-md-12 mb-4">
+                        <div class="card shadow-sm text-center">
+                            <img t-att-src="'https://res.cloudinary.com/drw030kab/image/upload/v1735708674/assortment-dirty-dumped-objects_atyca3.jpg'"
+                                 alt="Appliances" class="card-img-main"
+                                 style="width: 70%; height: 40%; object-fit: cover;"/>
+                            <div class="card-body">
+                                <p class="card-text-full">
+                                    Old household appliances, such as refrigerators, washing machines, and dryers, are
+                                    rich sources of recyclable metals like copper, aluminum, and steel. These metals can
+                                    be extracted and reused in new manufacturing processes, significantly reducing the
+                                    need for raw material mining.
+                                </p>
+                                <p class="card-text-full">
+                                    Beyond the metals, appliances also contain valuable components such as motors,
+                                    compressors, and wiring that can be repurposed. Proper recycling of appliances
+                                    prevents these materials from ending up in landfills, where they may release harmful
+                                    substances into the environment.
+                                </p>
+                                <p class="card-text-full">
+                                    Recycling household appliances promotes sustainability and supports a circular
+                                    economy. By giving these items a second life, industries can conserve resources,
+                                    reduce waste, and contribute to a greener future.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </t>
+    </template>
+
+    <template id="card_cans_details" name="Cans Details">
+        <t t-call="website.layout">
+            <div class="container mt-5">
+                <h2 class="card-heading-main">Cans</h2>
+                <div class="row">
+                    <div class="col-md-12 mb-4">
+                        <div class="card shadow-sm text-center">
+                            <img t-att-src="'https://res.cloudinary.com/drw030kab/image/upload/a_90/v1735708673/barrel-165092_1920_swdw9k.jpg'"
+                                 alt="Cans" class="card-img-main"
+                                 style="width: 70%; height: 40%; object-fit: cover;"/>
+                            <div class="card-body">
+                                <p class="card-text-full">
+                                    Recyclable cans, typically made of aluminum or tin-plated steel, are highly valuable
+                                    in the recycling industry. Aluminum cans, in particular, are lightweight, durable,
+                                    and can be recycled indefinitely without losing their quality.
+                                </p>
+                                <p class="card-text-full">
+                                    Recycling cans requires significantly less energy compared to producing new metal
+                                    from raw ore. This energy efficiency translates to reduced greenhouse gas emissions
+                                    and a lower environmental footprint, making it a key component of sustainable waste
+                                    management.
+                                </p>
+                                <p class="card-text-full">
+                                    By recycling cans, industries contribute to resource conservation and reduce
+                                    landfill waste. This process helps foster a circular economy, where materials are
+                                    reused, benefiting both the environment and the economy.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </t>
+    </template>
+
+    <template id="card_radiators_details" name="Radiators Details">
+        <t t-call="website.layout">
+            <div class="container mt-5">
+                <h2 class="card-heading-main">Radiators</h2>
+                <div class="row">
+                    <div class="col-md-12 mb-4">
+                        <div class="card shadow-sm text-center">
+                            <img t-att-src="'https://res.cloudinary.com/drw030kab/image/upload/v1735708674/radiator-2682468_m3dxph.jpg'"
+                                 alt="Radiators" class="card-img-main"
+                                 style="width: 70%; height: 40%; object-fit: cover;"/>
+                            <div class="card-body">
+                                <p class="card-text-full">
+                                    Radiators, often made from copper and aluminum, are valuable materials in the
+                                    recycling market. These metals are extracted and reused in various industries,
+                                    including automotive, construction, and manufacturing.
+                                </p>
+                                <p class="card-text-full">
+                                    Recycling radiators helps reduce the demand for virgin materials, conserving natural
+                                    resources and lowering energy consumption. It also prevents valuable metals from
+                                    ending up in landfills, promoting a more sustainable waste management approach.
+                                </p>
+                                <p class="card-text-full">
+                                    The process of recycling radiators not only benefits the environment but also
+                                    creates economic opportunities. By recovering and reusing these materials,
+                                    industries can reduce costs and contribute to a greener, more efficient
+                                    manufacturing process.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </t>
+    </template>
+
+
+</odoo>

@@ -1,12 +1,12 @@
 * {
-    font-family: "A",sans-serif !important;
+    font-family: Arial, sans-serif !important;
 }
 
 .main-logo {
         height:50px;
     }
 .navbar {
-    background-color: #FFFFFF; /* Orange */
+    background-color: #FFFFFF;
 }
 
 
@@ -50,6 +50,101 @@
         padding: 10px 15px;
     }
 }
+
+// custom Nav Menu Styles
+
+/* General Menu Styles */
+
+.menu-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+.menu-item {
+  position: relative;
+}
+.menu-item > a {
+  padding: 10px 20px;
+  display: block;
+  color: black;
+  text-decoration: none;
+}
+
+/* Submenu Styles */
+.submenu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  left: 0;
+  text-align:left;
+  top: 100%;
+  display: none;
+  min-width:180px;
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+}
+.submenu-right {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  text-align:left;
+  min-width:220px;
+  left: 100%;
+  top: 0;
+  display: none;
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+}
+.submenu li a, .submenu-right li a {
+  padding: 10px 20px;
+  display: block;
+  color: black;
+  text-decoration: none;
+}
+.submenu li a:hover, .submenu-right li a:hover {
+  background-color: #f0f0f0;
+}
+
+/* Show Submenu on Hover */
+.menu-item:hover > .submenu {
+  display: block;
+}
+.menu-item:hover > .submenu-right {
+  display: block;
+}
+
+/* Mobile View */
+@media (max-width: 768px) {
+  .menu-list {
+    flex-direction: column;
+    justify-content:start;
+  }
+  .submenu, .submenu-right {
+    position: relative;
+    left: 0;
+    top: 0;
+  }
+  .menu-item > a::after {
+    content: "▼";
+    float: right;
+    margin-left: 10px;
+  }
+  .menu-item.open > .submenu, .menu-item.open > .submenu-right {
+    display: block;
+  }
+  .menu-item:hover > .submenu, .menu-item:hover > .submenu-right {
+    display: none; /* Disable hover effect on mobile */
+  }
+}
+
+
+
+
 /* Dropdown menu styles */
 /* Submenu positioning for right-alignment */
 .dropdown-submenu {
@@ -154,8 +249,7 @@
 .carousel-control-next-icon {
     width: 20px;
     height: 20px;
-    color:black;
-    background-color: rgba(255, 255, 255, 0.5); /* Semi-transparent background */
+    background-color: black; /* Semi-transparent background */
     border-radius: 50%; /* Circular arrows */
 }
 
@@ -188,36 +282,10 @@
 /*cards section */
 
 .card {
-    border: 1px solid #ddd;
-    border-radius: 8px;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
-}
 
-.card-img-top {
-    border-top-left-radius: 8px;
-    border-top-right-radius: 8px;
-}
-
-.card-body {
-    text-align: center;
-    height:150px;
-}
-
-.card-title {
-    font-size: 18px;
-    font-weight: bold;
-    margin-bottom: 0.5rem;
-}
-
-.card-text {
-    font-size: 13px;
-    color: #555;
-}
 
 .question-form-main {
     display:flex;
@@ -234,6 +302,7 @@
     flex-direction:column;
     gap:15px;
     background-color:transparent;
+    height:240px;
 }
 
 .ques-input {
@@ -255,6 +324,8 @@
     text-decoration:none;
     color:white;
     margin-top:10px;
+    display:block;
+    width:max-content;
 
 }
 .question-submit:hover {
@@ -305,6 +376,10 @@
 .form-container h4{
             font-size:40px;
             font-weight:bold;
+    }
+
+.form-container span{
+        font-size:44px;
     }
 
 /*.main-enquiry-container {
@@ -612,10 +687,36 @@ footer h4::after {
     }
 
 .contact-heading{
-    color:black;
+    color:#ff0000;
     font-weight:bold;
     font-size:30px;
     }
+
+.head-office-style{
+    color:#ff0000;
+    font-weight:bold;
+    }
+
+.head-office-font {
+    font-size:17px;
+    }
+
+.contact-sub-btn {
+    background-color: #ff0000;
+    color: #ffffff;
+    height:40px;
+    width:100px;
+    padding: 5px 10px;
+    border-radius:0px;
+    border:0px;
+    font-size:15px;
+    text-transform: uppercase;
+}
+
+.contact-sub-btn:hover {
+    background-color: black;
+    color:#ff0000;
+}
 
 
 @media (max-width:767px){
@@ -679,3 +780,80 @@ footer h4::after {
         text-decoration:none;
         background-color: #ff0000;
     }
+
+
+/* custom card styles */
+.card-img-top {
+    width: 100% !important;
+    height: 220px !important;
+    border-radius: 0px;
+}
+
+.card-img-main {
+    width: 100% !important;
+    height: 60vh !important;
+    border-radius: 0px;
+    }
+
+
+.card {
+    border: 0px;
+    border-radius: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.card-title {
+    font-size:17px;
+    }
+
+.card-text-full{
+    font-size:17px;
+    text-align:start;
+    }
+
+.card-heading-main {
+    font-family: Arial, sans-serif;
+    font-weight:bold;
+    font-size:40px;
+    position: relative;
+    display: inline-block;
+}
+
+.card-heading-main::after {
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 80px;
+    height: 4px;
+    background-color: #ff0000;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-grow: 1;
+
+}
+
+.read-m-btn {
+    border: 0px;
+    color: #ff0000;
+    font-weight: bold;
+    align-self: flex-end;
+    margin-top: auto;
+}
+
+.card-text {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size:14px;
+    margin-bottom: 0px;
+}

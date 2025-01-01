@@ -10,7 +10,6 @@
                 '': 'nav-home',
                 '/about': 'nav-about',
                 '/careers': 'nav-careers',
-                '/news': 'nav-news',
                 '/contact': 'nav-contact',
 
                 };
@@ -27,8 +26,19 @@
                 }
                 });
 
-            </script>
+                document.querySelectorAll('.menu-item > a').forEach((menuItem) => {
+                menuItem.addEventListener('click', (e) => {
+                const parentItem = e.target.parentElement;
 
+                if (window.innerWidth &lt;= 768) {
+                e.preventDefault(); // Prevent navigation
+                parentItem.classList.toggle('open'); // Toggle class to show/hide submenu
+                }
+                });
+                });
+
+
+            </script>
         </xpath>
         <xpath expr="//header" position="replace">
             <header>
@@ -50,60 +60,151 @@
                             <li class="nav-item">
                                 <a class="nav-link" href="/about" id="nav-about">About Us</a>
                             </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown1" role="button"
-                                   data-bs-toggle="dropdown" aria-expanded="false">
-                                    What We Trading
-                                </a>
-                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown1">
-                                    <li>
-                                        <a class="dropdown-item" href="#">Metals</a>
+                            <li class="menu-item">
+                                <a href="#" class="nav-link">What We Trading</a>
+                                <ul class="submenu p-4">
+                                    <li class="menu-item">
+                                        <a href="/tradingcategory/metal" class="nav-link">Metal</a>
+                                        <!-- Submenu for "Metal" -->
+                                        <ul class="submenu-right p-4">
+                                            <li>
+                                                <a href="/whatwetrading/any-type-of-metal" class="nav-link">Any Type Of
+                                                    Metal
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="/whatwetrading/auto-parts" class="nav-link">Auto Parts</a>
+                                            </li>
+                                            <li>
+                                                <a href="/whatwetrading/lawn-equipment" class="nav-link">Lawn
+                                                    Equipment
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="/whatwetrading/aluminium-cans" class="nav-link">Aluminum Cans
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="/whatwetrading/cable-wires" class="nav-link">Cable Wires</a>
+                                            </li>
+                                            <li>
+                                                <a href="/whatwetrading/plumbing-fixtures-and-pipe" class="nav-link">
+                                                    Plumbing Fixtures &amp; Pipe
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="/whatwetrading/electrical-wiring" class="nav-link">Electrical
+                                                    Wiring
+                                                </a>
+                                            </li>
+                                        </ul>
                                     </li>
-                                    <li>
-                                        <a class="dropdown-item" href="#">Ferrous Metals</a>
+                                    <li class="menu-item">
+                                        <a href="/tradingcategory/ferrous-metal" class="nav-link">Ferrous Metal</a>
+                                        <ul class="submenu-right p-4">
+                                            <li>
+                                                <a href="/whatwetrading/iron" class="nav-link">Iron</a>
+                                            </li>
+                                            <li>
+                                                <a href="/whatwetrading/steel" class="nav-link">Steel</a>
+                                            </li>
+                                            <li>
+                                                <a href="/whatwetrading/aluminium" class="nav-link">Aluminium</a>
+                                            </li>
+                                            <li>
+                                                <a href="/whatwetrading/copper" class="nav-link">Copper</a>
+                                            </li>
+                                            <li>
+                                                <a href="/whatwetrading/brass" class="nav-link">Brass</a>
+                                            </li>
+                                            <li>
+                                                <a href="/whatwetrading/nickel" class="nav-link">Nickel</a>
+                                            </li>
+                                            <li>
+                                                <a href="/whatwetrading/titanium" class="nav-link">Titanium</a>
+                                            </li>
+                                        </ul>
                                     </li>
-                                    <li>
-                                        <a class="dropdown-item" href="#">Non-Ferrous Metals</a>
+                                    <li class="menu-item">
+                                        <a href="/tradingcategory/non-ferrous-metal" class="nav-link">Non Ferrous
+                                            Metal
+                                        </a>
+                                        <ul class="submenu-right p-4">
+                                            <li>
+                                                <a href="/whatwetrading/zinc" class="nav-link">Zinc</a>
+                                            </li>
+                                            <li>
+                                                <a href="/whatwetrading/tungsten" class="nav-link">Tungsten</a>
+                                            </li>
+                                            <li>
+                                                <a href="/whatwetrading/tin" class="nav-link">Tin</a>
+                                            </li>
+                                            <li>
+                                                <a href="/whatwetrading/cars" class="nav-link">Cars</a>
+                                            </li>
+                                            <li>
+                                                <a href="/whatwetrading/turnings" class="nav-link">Turnings</a>
+                                            </li>
+                                            <li>
+                                                <a href="appliances" class="nav-link">Appliances</a>
+                                            </li>
+                                            <li>
+                                                <a href="/whatwetrading/cans" class="nav-link">Cans</a>
+                                            </li>
+                                            <li>
+                                                <a href="/whatwetrading/radiators" class="nav-link">Radiators</a>
+                                            </li>
+                                        </ul>
                                     </li>
                                 </ul>
                             </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button"
-                                   data-bs-toggle="dropdown" aria-expanded="false">
+                            <li class="menu-item">
+                                <a class="nav-link" href="#">
                                     Products
                                 </a>
-                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown2">
+                                <ul class="submenu p-4" aria-labelledby="navbarDropdown2">
                                     <li>
-                                        <a class="dropdown-item" href="#">Carbon Steel Sheets/Coil</a>
+                                        <a class="nav-link" href="/product/carbon-steel-sheets-coil">Carbon Steel
+                                            Sheets/Coil
+                                        </a>
                                     </li>
                                     <li>
-                                        <a class="dropdown-item" href="#">Pipe Made Of Stainless Steel</a>
+                                        <a class="nav-link" href="/product/pipe-made-of-stainless-steel">Pipe Made Of
+                                            Stainless Steel
+                                        </a>
                                     </li>
                                     <li>
-                                        <a class="dropdown-item" href="#">Round Bars Of Stainless Steel</a>
+                                        <a class="nav-link" href="/product/round-bars-of-stainless-steel">Round Bars Of
+                                            Stainless Steel
+                                        </a>
                                     </li>
                                     <li>
-                                        <a class="dropdown-item" href="#">Shapes Of Steel I Beam</a>
+                                        <a class="nav-link" href="/product/shapes-of-steel-i-beam">Shapes Of Steel I
+                                            Beam
+                                        </a>
                                     </li>
                                     <li>
-                                        <a class="dropdown-item" href="#">Silicon Steels</a>
+                                        <a class="nav-link" href="/product/silicon-steels">Silicon Steels</a>
                                     </li>
                                     <li>
-                                        <a class="dropdown-item" href="#">Stainless Steel Coils</a>
+                                        <a class="nav-link" href="/product/stainless-steel-coils">Stainless Steel
+                                            Coils
+                                        </a>
                                     </li>
                                     <li>
-                                        <a class="dropdown-item" href="#">Stainless Steel Coils</a>
+                                        <a class="nav-link" href="/product/stainless-steel-coils">Stainless Steel
+                                            Coils
+                                        </a>
                                     </li>
                                     <li>
-                                        <a class="dropdown-item" href="#">Stainless Steel H-Beams</a>
+                                        <a class="nav-link" href="/product/stainless-steel-h-beams">Stainless Steel
+                                            H-Beams
+                                        </a>
                                     </li>
                                 </ul>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="/careers" id="nav-careers">Careers</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="/news" id="nav-news">News</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="/contact" id="nav-contact">Contact</a>
@@ -114,7 +215,6 @@
                                 </a>
                             </li>
                         </ul>
-
                     </div>
                 </nav>
             </header>

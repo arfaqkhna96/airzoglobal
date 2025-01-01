@@ -91,7 +91,7 @@
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-6 col-sm-12 mb-4 question-form-main">
-                        <div class="card question-form">
+                        <div class="question-form">
                             <p class="text-white">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="#ff0000"
                                      class="bi bi-chat-square-text" viewBox="0 0 16 16">
@@ -158,7 +158,7 @@
                         <div class="content">
                             <h2 style="font-size:20px">About Us</h2>
                             <p style="font-size:14px">
-                                Arizo Global is a dynamic and dependable metal trading corporation
+                                Arizo Group is a dynamic and dependable metal trading corporation
                                 headquartered in the exciting city of the United Arab Emirates.
                                 We have quickly emerged as a prominent player in the global metal
                                 market in various fields such as auto parts, lawn equipment, cable
@@ -166,7 +166,7 @@
                                 our unwavering commitment to excellence, integrity, and customer
                                 satisfaction, with a strong foundation in the industry.
                             </p>
-                            <button class="btn btn-danger" style="font-size:16px; height:40px;">Learn More</button>
+<!--                            <button class="btn btn-danger" style="font-size:16px; height:40px;">Learn More</button>-->
                         </div>
                         <div class="images">
                             <img src="https://res.cloudinary.com/drw030kab/image/upload/v1734782665/pgzkjumuoifcf6djslgg.png"

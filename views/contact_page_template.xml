@@ -5,7 +5,7 @@
             <div class="container mt-5" style="display:flex; flex-direction:column; gap:30px;">
                 <div class="row">
                     <div class="col-md-4">
-                        <h4 class="mb-3">QATAR</h4>
+                        <h4 class="mb-3"><span class="head-office-style">Q</span>ATAR <span class="head-office-font">[ Head Office ] </span></h4>
                         <div class="d-flex gap-1">
                             <p>
                                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#ff0000"
@@ -79,7 +79,7 @@
                                                   class="px-3 rounded-0 form-control"/>
                                     </div>
                                     <div style="text-align:right;">
-                                        <button class="btn btn-danger" style="width:100px; border-radius:0px;">Submit
+                                        <button class="contact-sub-btn">Submit
                                         </button>
                                     </div>
                                 </form>

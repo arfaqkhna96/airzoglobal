@@ -2,6 +2,7 @@
 <odoo>
     <template id="careers_page" name="Careers">
         <t t-call="website.layout">
+
             <div class="container testing-class mt-5">
                 <h1>Careers Page</h1>
                 <p>Welcome to Airzoglobal! We are a leading metal trading company...</p>

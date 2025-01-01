@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <template id="metal_category_cards" name="Metal Categories">
+        <t t-call="website.layout">
+            <div class="container mt-4">
+                <div class="row">
+                    <!-- Include each card template -->
+                    <t t-call="airzoglobal.card_any_type_of_metal"/>
+                    <t t-call="airzoglobal.card_auto_parts"/>
+                    <t t-call="airzoglobal.card_lawn_equipment"/>
+                    <t t-call="airzoglobal.card_aluminium_cans"/>
+                    <t t-call="airzoglobal.card_cable_wires"/>
+                    <t t-call="airzoglobal.card_plumbing_fixtures"/>
+                    <t t-call="airzoglobal.card_electrical_wiring"/>
+                </div>
+            </div>
+        </t>
+    </template>
+    <template id="ferrous_metal_cards" name="Ferrous Metal Cards">
+        <t t-call="website.layout">
+            <div class="container mt-5">
+                <h2>Explore Ferrous Metals</h2>
+                <div class="row">
+                    <!-- Card for Iron -->
+                    <t t-call="airzoglobal.card_iron"/>
+                    <!-- Card for Steel -->
+                    <t t-call="airzoglobal.card_steel"/>
+                    <!-- Card for Aluminium -->
+                    <t t-call="airzoglobal.card_aluminium"/>
+                    <!-- Card for Copper -->
+                    <t t-call="airzoglobal.card_copper"/>
+                    <!-- Card for Brass -->
+                    <t t-call="airzoglobal.card_brass"/>
+                    <!-- Card for Nickel -->
+                    <t t-call="airzoglobal.card_nickel"/>
+                    <!-- Card for Titanium -->
+                    <t t-call="airzoglobal.card_titanium"/>
+                </div>
+            </div>
+        </t>
+    </template>
+
+</odoo>

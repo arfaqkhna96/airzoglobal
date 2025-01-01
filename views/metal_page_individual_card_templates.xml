@@ -1,0 +1,505 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <template id="card_any_type_of_metal">
+        <div class="col-md-4 mb-4">
+            <div class="card text-center">
+                <img t-att-src="'https://res.cloudinary.com/drw030kab/image/upload/v1735622876/arizogroup/gvofzizavcu7zqjzk6gj.jpg'"
+                     alt="Any Type of Metal"
+                     class="card-img-top"/>
+                <div class="card-body">
+                    <h5 class="card-title">Any Type of Metal</h5>
+                    <p class="card-text">Discover premium-quality metals for industrial and commercial use.
+                        Whether for construction or manufacturing, we have options to meet your requirements.
+                        Our collection ensures durability and versatility for every project.
+                    </p>
+                    <a t-att-href="'/whatwetrading/any-type-of-metal'"
+                       class="btn read-m-btn d-flex justify-content-end align-items-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                             class="bi bi-arrow-right" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd"
+                                  d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </template>
+
+    <template id="card_auto_parts">
+        <div class="col-md-4 mb-4">
+            <div class="card text-center">
+                <img t-att-src="'https://res.cloudinary.com/drw030kab/image/upload/v1735622877/arizogroup/rx3aauqd3oxlho70owib.jpg'"
+                     alt="Auto Parts"
+                     class="card-img-top"/>
+                <div class="card-body">
+                    <h5 class="card-title">Auto Parts</h5>
+                    <p class="card-text">Explore our wide range of auto parts designed for performance and durability.
+                        From engine components to exterior upgrades, find what your vehicle needs.
+                        Enhance your car's functionality with parts that you can trust.
+                    </p>
+                    <a t-att-href="'/whatwetrading/auto-parts'"
+                       class="btn read-m-btn d-flex justify-content-end align-items-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                             class="bi bi-arrow-right" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd"
+                                  d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </template>
+
+    <template id="card_lawn_equipment">
+        <div class="col-md-4 mb-4">
+            <div class="card text-center">
+                <img t-att-src="'https://res.cloudinary.com/drw030kab/image/upload/v1735622875/arizogroup/if81ojdmafetnpmkae4t.jpg'"
+                     alt="Lawn Equipment"
+                     class="card-img-top"/>
+                <div class="card-body">
+                    <h5 class="card-title">Lawn Equipment</h5>
+                    <p class="card-text">Find premium tools and machines to care for your lawn and garden.
+                        Our selection includes mowers, trimmers, and everything for landscaping needs.
+                        Make your outdoor spaces shine with ease and efficiency.
+                    </p>
+                    <a t-att-href="'/whatwetrading/lawn-equipment'"
+                       class="btn read-m-btn d-flex justify-content-end align-items-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                             class="bi bi-arrow-right" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd"
+                                  d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </template>
+
+    <template id="card_aluminium_cans">
+        <div class="col-md-4 mb-4">
+            <div class="card text-center">
+                <img t-att-src="'https://res.cloudinary.com/drw030kab/image/upload/v1735623426/arizogroup/eft9rrrmbzlaujzz3c0l.jpg'"
+                     alt="Aluminium Cans"
+                     class="card-img-top"/>
+                <div class="card-body">
+                    <h5 class="card-title">Aluminium Cans</h5>
+                    <p class="card-text">Choose eco-friendly aluminium cans for storage and recycling purposes.
+                        These cans are durable, lightweight, and perfect for environmental conservation.
+                        Upgrade your sustainable practices today.
+                    </p>
+                    <a t-att-href="'/whatwetrading/aluminium-cans'"
+                       class="btn read-m-btn d-flex justify-content-end align-items-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                             class="bi bi-arrow-right" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd"
+                                  d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </template>
+
+    <template id="card_cable_wires">
+        <div class="col-md-4 mb-4">
+            <div class="card text-center">
+                <img src="https://res.cloudinary.com/drw030kab/image/upload/v1735622882/arizogroup/dacpzdatbldacffr5pv5.jpg"
+                     alt="Cable Wires"
+                     class="card-img-top"/>
+                <div class="card-body">
+                    <h5 class="card-title">Cable Wires</h5>
+                    <p class="card-text">Find top-grade cable wires for all your electrical installations.
+                        Our wires offer safety, reliability, and high performance for every project.
+                        Equip yourself with the best for seamless operations.
+                    </p>
+                    <a t-att-href="'/whatwetrading/cable-wires'"
+                       class="btn read-m-btn d-flex justify-content-end align-items-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                             class="bi bi-arrow-right" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd"
+                                  d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </template>
+
+    <template id="card_plumbing_fixtures">
+        <div class="col-md-4 mb-4">
+            <div class="card text-center">
+                <img t-att-src="'https://res.cloudinary.com/drw030kab/image/upload/v1735622879/arizogroup/timujpnttq2tpd3xfu0a.jpg'"
+                     alt="Plumbing Fixtures"
+                     class="card-img-top"/>
+                <div class="card-body">
+                    <h5 class="card-title">Plumbing Fixtures</h5>
+                    <p class="card-text">Upgrade your home with durable and stylish plumbing fixtures.
+                        From faucets to pipes, our products combine function and design for any space.
+                    </p>
+                    <a t-att-href="'/whatwetrading/plumbing-fixtures-and-pipe'"
+                       class="btn read-m-btn d-flex justify-content-end align-items-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                             class="bi bi-arrow-right" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd"
+                                  d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </template>
+
+    <template id="card_electrical_wiring">
+        <div class="col-md-4 mb-4">
+            <div class="card text-center">
+                <img t-att-src="'https://res.cloudinary.com/drw030kab/image/upload/v1735622876/arizogroup/uf7yvrfp4htyzkgkffcl.jpg'"
+                     alt="Electrical Wiring"
+                     class="card-img-top"/>
+                <div class="card-body">
+                    <h5 class="card-title">Electrical Wiring</h5>
+                    <p class="card-text">Get high-quality electrical wiring for safe and efficient power distribution.
+                        Perfect for residential, commercial, and industrial use, our wiring ensures reliability
+                        and compliance with industry standards.
+                    </p>
+                    <a t-att-href="'/whatwetrading/electrical-wiring'"
+                       class="btn read-m-btn d-flex justify-content-end align-items-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                             class="bi bi-arrow-right" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd"
+                                  d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </template>
+
+    <template id="card_iron">
+        <div class="col-md-4 mb-4">
+            <div class="card   text-center">
+                <img t-att-src="'https://res.cloudinary.com/drw030kab/image/upload/v1735649750/arizogroup/iron-2439297_yh8v0s.jpg'"
+                     alt="Iron" class="card-img-top" style="width: 70%; height: 40%; object-fit: cover;"/>
+                <div class="card-body">
+                    <h5 class="card-title">Iron</h5>
+                    <p class="card-text">Explore the versatile applications of iron in various industries.</p>
+                    <a t-att-href="'/whatwetrading/iron'" class="btn  read-m-btn">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                             class="bi bi-arrow-right" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd"
+                                  d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </template>
+
+    <template id="card_steel">
+        <div class="col-md-4 mb-4">
+            <div class="card   text-center">
+                <img t-att-src="'https://res.cloudinary.com/drw030kab/image/upload/v1735649748/arizogroup/steel-frame-420722_fzyn5g.jpg'"
+                     alt="Steel" class="card-img-top" style="width: 70%; height: 40%; object-fit: cover;"/>
+                <div class="card-body">
+                    <h5 class="card-title">Steel</h5>
+                    <p class="card-text">Discover high-strength and durable steel for all your engineering needs.</p>
+                    <a t-att-href="'/whatwetrading/steel'" class="btn  read-m-btn">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                             class="bi bi-arrow-right" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd"
+                                  d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </template>
+
+    <template id="card_aluminium">
+        <div class="col-md-4 mb-4">
+            <div class="card   text-center">
+                <img t-att-src="'https://res.cloudinary.com/drw030kab/image/upload/v1735649747/arizogroup/863681_O6DXDX0_hwphrc.jpg'"
+                     alt="Aluminium" class="card-img-top"
+                     style="width: 70%; height: 40%; object-fit: cover;"/>
+                <div class="card-body">
+                    <h5 class="card-title">Aluminium</h5>
+                    <p class="card-text">Explore lightweight and corrosion-resistant aluminium for various
+                        applications.
+                    </p>
+                    <a t-att-href="'/whatwetrading/aluminium'" class="btn  read-m-btn">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                             class="bi bi-arrow-right" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd"
+                                  d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </template>
+
+    <template id="card_copper">
+        <div class="col-md-4 mb-4">
+            <div class="card   text-center">
+                <img t-att-src="'https://res.cloudinary.com/drw030kab/image/upload/v1735649749/arizogroup/copper-1504098_mus7g3.jpg'"
+                     alt="Copper" class="card-img-top"
+                     style="width: 70%; height: 40%; object-fit: cover;"/>
+                <div class="card-body">
+                    <h5 class="card-title">Copper</h5>
+                    <p class="card-text">Find high-quality copper for electrical, plumbing, and industrial uses.</p>
+                    <a t-att-href="'/whatwetrading/copper'" class="btn  read-m-btn">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                             class="bi bi-arrow-right" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd"
+                                  d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </template>
+
+    <template id="card_brass">
+        <div class="col-md-4 mb-4">
+            <div class="card   text-center">
+                <img t-att-src="'https://res.cloudinary.com/drw030kab/image/upload/a_90/v1735649751/arizogroup/pexels-karolina-grabowska-5202425_xu2jvk.jpg'"
+                     alt="Brass" class="card-img-top" style="width: 70%; height: 40%; object-fit: cover;"/>
+                <div class="card-body">
+                    <h5 class="card-title">Brass</h5>
+                    <p class="card-text">Brass is known for its corrosion resistance and is widely used in many
+                        industries.
+                    </p>
+                    <a t-att-href="'/whatwetrading/brass'" class="btn  read-m-btn">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                             class="bi bi-arrow-right" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd"
+                                  d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </template>
+
+    <template id="card_nickel">
+        <div class="col-md-4 mb-4">
+            <div class="card   text-center">
+                <img t-att-src="'https://res.cloudinary.com/drw030kab/image/upload/v1735649748/arizogroup/c-lipped-channel-5528517_ahbmxy.jpg'"
+                     alt="Nickel" class="card-img-top"
+                     style="width: 70%; height: 40%; object-fit: cover;"/>
+                <div class="card-body">
+                    <h5 class="card-title">Nickel</h5>
+                    <p class="card-text">Nickel is known for its resistance to corrosion and high-temperature
+                        stability.
+                    </p>
+                    <a t-att-href="'/whatwetrading/nickel'" class="btn  read-m-btn">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                             class="bi bi-arrow-right" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd"
+                                  d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </template>
+
+    <template id="card_titanium">
+        <div class="col-md-4 mb-4">
+            <div class="card   text-center">
+                <img t-att-src="'https://res.cloudinary.com/drw030kab/image/upload/v1735649749/arizogroup/pexels-rolledalloys-metal-supply-8940820_ntkbi4.jpg'"
+                     alt="Titanium" class="card-img-top"
+                     style="width: 70%; height: 40%; object-fit: cover;"/>
+                <div class="card-body">
+                    <h5 class="card-title">Titanium</h5>
+                    <p class="card-text">Titanium is a strong, lightweight, and corrosion-resistant material.</p>
+                    <a t-att-href="'/whatwetrading/titanium'" class="btn  read-m-btn">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                             class="bi bi-arrow-right" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd"
+                                  d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </template>
+
+    <template id="non_ferrous_metal_category" name="Non Ferrous Metal Category">
+        <t t-call="website.layout">
+            <div class="container mt-5">
+                <h2>Non-Ferrous Metals</h2>
+                <div class="row">
+                    <!-- Zinc Card -->
+                    <div class="col-md-4 mb-4">
+                        <div class="card  ">
+                            <img t-att-src="'https://res.cloudinary.com/drw030kab/image/upload/v1735708675/large-steel-factory-warehouse_jlz5ie.jpg'"
+                                 alt="Zinc" class="card-img-top"
+                                 style="width: 70%; height: 40%; object-fit: cover;"/>
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Zinc</h5>
+                                <p class="card-text">Zinc is used for galvanizing iron and steel to prevent corrosion,
+                                    as well as in batteries and die-casting.
+                                </p>
+                                <a href="/whatwetrading/zinc" class="btn  read-m-btn">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                         class="bi bi-arrow-right-circle-fill" viewBox="0 0 16 16">
+                                        <path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0M4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5z"/>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Tungsten Card -->
+                    <div class="col-md-4 mb-4">
+                        <div class="card  ">
+                            <img t-att-src="'https://res.cloudinary.com/drw030kab/image/upload/v1735710415/Screenshot_2025-01-01_103115_l4c35m.png'"
+                                 alt="Tungsten" class="card-img-top"
+                                 style="width: 70%; height: 40%; object-fit: cover;"/>
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Tungsten</h5>
+                                <p class="card-text">Tungsten is used in heavy-duty applications like cutting tools,
+                                    aerospace, and high-temperature machinery due to its high melting point.
+                                </p>
+                                <a href="/whatwetrading/tungsten" class="btn  read-m-btn">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                         class="bi bi-arrow-right-circle-fill" viewBox="0 0 16 16">
+                                        <path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0M4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5z"/>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Tin Card -->
+                    <div class="col-md-4 mb-4">
+                        <div class="card  ">
+                            <img t-att-src="'https://res.cloudinary.com/drw030kab/image/upload/v1735708675/high-angle-tall-tin-cans_scyd0r.jpg'"
+                                 alt="Tin" class="card-img-top"
+                                 style="width: 70%; height: 40%; object-fit: cover;"/>
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Tin</h5>
+                                <p class="card-text">Tin is commonly used for coating steel to prevent corrosion, and in
+                                    the production of alloys such as bronze.
+                                </p>
+                                <a href="/whatwetrading/tin" class="btn  read-m-btn">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                         class="bi bi-arrow-right-circle-fill" viewBox="0 0 16 16">
+                                        <path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0M4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5z"/>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Cars Card -->
+                    <div class="col-md-4 mb-4">
+                        <div class="card  ">
+                            <img t-att-src="'https://res.cloudinary.com/drw030kab/image/upload/v1735708679/4019_uq00q2.jpg'"
+                                 alt="Cars" class="card-img-top"
+                                 style="width: 70%; height: 40%; object-fit: cover;"/>
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Cars</h5>
+                                <p class="card-text">Cars contain valuable non-ferrous metals like aluminum and copper.
+                                    Recycling old cars helps reclaim these materials for reuse.
+                                </p>
+                                <a href="/whatwetrading/cars" class="btn  read-m-btn">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                         class="bi bi-arrow-right-circle-fill" viewBox="0 0 16 16">
+                                        <path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0M4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5z"/>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Turnings Card -->
+                    <div class="col-md-4 mb-4">
+                        <div class="card  ">
+                            <img t-att-src="'https://res.cloudinary.com/drw030kab/image/upload/v1735708677/9377334967_oxnxmi.png'"
+                                 alt="Turnings" class="card-img-top"
+                                 style="width: 70%; height: 40%; object-fit: cover;"/>
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Turnings</h5>
+                                <p class="card-text">Metal turnings are small pieces of metal produced during machining
+                                    operations. These materials are often recycled for non-ferrous metals.
+                                </p>
+                                <a href="/whatwetrading/turnings" class="btn  read-m-btn">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                         class="bi bi-arrow-right-circle-fill" viewBox="0 0 16 16">
+                                        <path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0M4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5z"/>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Appliances Card -->
+                    <div class="col-md-4 mb-4">
+                        <div class="card  ">
+                            <img t-att-src="'https://res.cloudinary.com/drw030kab/image/upload/v1735708674/assortment-dirty-dumped-objects_atyca3.jpg'"
+                                 alt="Appliances"
+                                 class="card-img-top" style="width: 70%; height: 40%; object-fit: cover;"/>
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Appliances</h5>
+                                <p class="card-text">Old household appliances are a rich source of non-ferrous metals
+                                    like aluminum, copper, and zinc, ideal for recycling.
+                                </p>
+                                <a href="/whatwetrading/appliances" class="btn  read-m-btn">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                         class="bi bi-arrow-right-circle-fill" viewBox="0 0 16 16">
+                                        <path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0M4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5z"/>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Cans Card -->
+                    <div class="col-md-4 mb-4">
+                        <div class="card  ">
+                            <img t-att-src="'https://res.cloudinary.com/drw030kab/image/upload/a_90/v1735708673/barrel-165092_1920_swdw9k.jpg'"
+                                 alt="Cans" class="card-img-top"
+                                 style="width: 70%; height: 40%; object-fit: cover;"/>
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Cans</h5>
+                                <p class="card-text">Aluminum cans are one of the most commonly recycled non-ferrous
+                                    metals, reducing the need for new metal extraction.
+                                </p>
+                                <a href="/whatwetrading/cans" class="btn  read-m-btn">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                         class="bi bi-arrow-right-circle-fill" viewBox="0 0 16 16">
+                                        <path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0M4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5z"/>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Radiators Card -->
+                    <div class="col-md-4 mb-4">
+                        <div class="card  ">
+                            <img t-att-src="'https://res.cloudinary.com/drw030kab/image/upload/v1735708674/radiator-2682468_m3dxph.jpg'"
+                                 alt="Radiators" class="card-img-top"
+                                 style="width: 70%; height: 40%; object-fit: cover;"/>
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Radiators</h5>
+                                <p class="card-text">Radiators, especially those made from copper and aluminum, can be
+                                    recycled as valuable non-ferrous metals.
+                                </p>
+                                <a href="/whatwetrading/radiators" class="btn  read-m-btn">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                         class="bi bi-arrow-right-circle-fill" viewBox="0 0 16 16">
+                                        <path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0M4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5z"/>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </t>
+    </template>
+
+
+</odoo>

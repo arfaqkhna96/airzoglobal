@@ -5,6 +5,7 @@
     'author': 'Neeraj M',
     'category': 'Bussiness',
     'data': [
+        'security/ir.model.access.csv',
         'views/navbar_template.xml',
         'views/home_page_template.xml',
         'views/about_us_template.xml',
@@ -13,13 +14,15 @@
         'views/news_page_template.xml',
         'views/enquiry_form_template.xml',
         'views/footer_view_template.xml',
-        'views/enquiry_success_template.xml'
-
+        'views/enquiry_success_template.xml',
+        'views/metal_page_template.xml',
+        'views/metal_page_individual_card_templates.xml',
+        'views/individual_card_display_template.xml',
     ],
     'assets': {
         'web.assets_frontend': [
             'airzoglobal/static/css/custom_design.scss',
-            'airzoglobal/static/js/web_page.js'
+            'airzoglobal/static/src/js/web_page.js',
         ],
     },
 }
