@@ -18,6 +18,7 @@
         'views/metal_page_template.xml',
         'views/metal_page_individual_card_templates.xml',
         'views/individual_card_display_template.xml',
+        'views/products_view_template.xml',
     ],
     'assets': {
         'web.assets_frontend': [

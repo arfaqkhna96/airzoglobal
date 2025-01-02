@@ -128,3 +128,31 @@ class Airzoglobal(http.Controller):
     @http.route('/whatwetrading/radiators', type='http', auth='public', website=True)
     def radiators(self, **kwargs):
         return request.render('airzoglobal.card_radiators_details')
+
+    @http.route('/product/carbon-steel-sheets-coil', type='http', auth='public', website=True)
+    def carbon_steel_sheets_coil(self, **kwargs):
+        return request.render('airzoglobal.carbon_steel_sheets_coil_template')
+
+    @http.route('/product/pipe-made-of-stainless-steel', type='http', auth='public', website=True)
+    def pipe_made_of_stainless_steel(self):
+        return request.render('airzoglobal.pipe_made_of_stainless_steel_template')
+
+    @http.route('/product/round-bars-of-stainless-steel', type='http', auth='public', website=True)
+    def round_bars_of_stainless_steel(self):
+        return request.render('airzoglobal.round_bars_of_stainless_steel_template')
+
+    @http.route('/product/shapes-of-steel-i-beam', type='http', auth='public', website=True)
+    def shapes_of_steel_i_beam(self):
+        return request.render('airzoglobal.shapes_of_steel_i_beam_template')
+    
+    @http.route('/product/silicon-steels', type='http', auth='public', website=True)
+    def silicon_steels(self):
+        return request.render('airzoglobal.silicon_steels_template')
+
+    @http.route('/product/stainless-steel-coils', type='http', auth='public', website=True)
+    def stainless_steel_coils(self):
+        return request.render('airzoglobal.stainless_steel_coils_template')
+
+    @http.route('/product/stainless-steel-h-beams', type='http', auth='public', website=True)
+    def stainless_steel_h_beams(self):
+        return request.render('airzoglobal.stainless_steel_h_beams_template')

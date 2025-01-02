@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <data>
+        <template id="carbon_steel_sheets_coil_template" name="Carbon Steel Sheets/Coil">
+            <t t-call="website.layout">
+                <div class="container mt-5">
+                    <h2 class="card-heading-main">Carbon Steel Sheets/Coil</h2>
+                    <div class="row">
+                        <div class="col-md-12 mb-4">
+                            <div class="card shadow-sm text-center">
+                                <img t-att-src="'https://res.cloudinary.com/drw030kab/image/upload/v1735800210/arizogroup/spring-1084991_a1nctl.jpg'"
+                                     alt="Carbon Steel Sheets/Coil"
+                                     class="card-img-main"
+                                     style="width: 70%; height: 40%; object-fit: cover;"/>
+                                <div class="card-body">
+                                    <p class="card-text-full">Carbon steel sheets and coils are versatile materials
+                                        widely used
+                                        in industrial, construction, and manufacturing sectors. These products are known
+                                        for their strength and durability, making them suitable for a range of
+                                        applications such as automotive panels, structural components, and pipelines.
+                                    </p>
+                                    <p class="card-text-full">Our carbon steel sheets and coils are available in various
+                                        grades
+                                        and thicknesses to meet diverse customer requirements. These materials are
+                                        processed
+                                        with precision to ensure high-quality standards, offering excellent resistance
+                                        to wear
+                                        and tear under harsh conditions.
+                                    </p>
+                                    <p class="card-text-full">Whether you need these sheets and coils for small-scale
+                                        projects
+                                        or large industrial operations, they provide exceptional performance and value
+                                        for money. Explore our range and find the perfect fit for your needs.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </t>
+        </template>
+
+        <template id="pipe_made_of_stainless_steel_template" name="Pipe Made Of Stainless Steel">
+            <t t-call="website.layout">
+                <div class="container mt-5">
+                    <h2 class="card-heading-main">Pipe Made Of Stainless Steel</h2>
+                    <div class="row">
+                        <div class="col-md-12 mb-4">
+                            <div class="card shadow-sm text-center">
+                                <img t-att-src="'https://res.cloudinary.com/drw030kab/image/upload/v1735800166/arizogroup/stainless-steel-tubes-manufacturer_pr8jf8.jpg'"
+                                     alt="Pipe Made Of Stainless Steel"
+                                     class="card-img-main"
+                                     style="width: 70%; height: 40%; object-fit: cover;"/>
+                                <div class="card-body">
+                                    <p class="card-text-full">Stainless steel pipes are an integral part of industrial
+                                        and
+                                        residential piping systems due to their superior resistance to corrosion and
+                                        oxidation.
+                                        These pipes offer long-lasting performance in even the most demanding
+                                        environments, such as chemical plants, food processing facilities, and water
+                                        treatment systems.
+                                    </p>
+                                    <p class="card-text-full">Our stainless steel pipes are designed to meet stringent
+                                        industry
+                                        standards, ensuring reliability and safety in all applications. Available in
+                                        various diameters and thicknesses, they are perfect for transporting liquids,
+                                        gases, and other materials without compromising quality.
+                                    </p>
+                                    <p class="card-text-full">With excellent heat resistance and a sleek finish, these
+                                        pipes are
+                                        also used for decorative purposes in modern architecture. Experience the
+                                        unparalleled quality and durability of our stainless steel pipes today.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </t>
+        </template>
+
+        <template id="round_bars_of_stainless_steel_template" name="Round Bars Of Stainless Steel">
+            <t t-call="website.layout">
+                <div class="container mt-5">
+                    <h2 class="card-heading-main">Round Bars Of Stainless Steel</h2>
+                    <div class="row">
+                        <div class="col-md-12 mb-4">
+                            <div class="card shadow-sm text-center">
+                                <img t-att-src="'https://res.cloudinary.com/drw030kab/image/upload/v1735812266/arizogroup/Screenshot_2025-01-02_151052_poeatu.png'"
+                                     alt="Round Bars Of Stainless Steel"
+                                     class="card-img-main"
+                                     style="width: 70%; height: 40%; object-fit: cover;"/>
+                                <div class="card-body">
+                                    <p class="card-text-full">Stainless steel round bars are essential components in
+                                        industries
+                                        such as construction, automotive, and manufacturing. These bars are crafted for
+                                        precision
+                                        and strength, making them ideal for producing fasteners, tools, and machine
+                                        components.
+                                    </p>
+                                    <p class="card-text-full">Our stainless steel round bars come in a variety of sizes
+                                        and
+                                        grades to cater to diverse applications. They are known for their excellent
+                                        resistance to
+                                        corrosion, heat, and wear, ensuring longevity and performance under extreme
+                                        conditions.
+                                    </p>
+                                    <p class="card-text-full">Whether you are looking for materials for welding,
+                                        machining, or
+                                        structural purposes, these round bars provide the reliability and quality you
+                                        need. Choose
+                                        our stainless steel round bars for your next project.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </t>
+        </template>
+
+        <template id="shapes_of_steel_i_beam_template" name="Shapes Of Steel I Beam">
+            <t t-call="website.layout">
+                <div class="container mt-5">
+                    <h2 class="card-heading-main">Shapes Of Steel I Beam</h2>
+                    <div class="row">
+                        <div class="col-md-12 mb-4">
+                            <div class="card shadow-sm text-center">
+                                <img t-att-src="'https://res.cloudinary.com/drw030kab/image/upload/v1735811308/arizogroup/Screenshot_2025-01-02_151005_uiojxq.png'"
+                                     alt="Shapes Of Steel I Beam"
+                                     class="card-img-main"
+                                     style="width: 70%; height: 40%; object-fit: cover;"/>
+                                <div class="card-body">
+                                    <p class="card-text-full">Steel I Beams are fundamental in modern construction,
+                                        offering
+                                        structural support and load-bearing capabilities. These beams are designed to
+                                        withstand
+                                        heavy loads, making them ideal for buildings, bridges, and other large-scale
+                                        projects.
+                                    </p>
+                                    <p class="card-text-full">Our steel I beams are manufactured to precision standards,
+                                        ensuring
+                                        durability and consistency. Available in a range of sizes and thicknesses, they
+                                        meet the
+                                        diverse needs of architectural and engineering designs.
+                                    </p>
+                                    <p class="card-text-full">Whether used in commercial or industrial projects, our
+                                        steel I
+                                        beams provide reliable performance and safety. Explore our selection to find the
+                                        perfect
+                                        beam for your next construction endeavor.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </t>
+        </template>
+
+        <template id="silicon_steels_template" name="Silicon Steels">
+            <t t-call="website.layout">
+                <div class="container mt-5">
+                    <h2 class="card-heading-main">Silicon Steels</h2>
+                    <div class="row">
+                        <div class="col-md-12 mb-4">
+                            <div class="card shadow-sm text-center">
+                                <img t-att-src="'https://res.cloudinary.com/drw030kab/image/upload/v1735812267/arizogroup/Screenshot_2025-01-02_151305_b9bw1e.png'"
+                                     alt="Silicon Steels"
+                                     class="card-img-main"
+                                     style="width: 70%; height: 40%; object-fit: cover;"/>
+                                <div class="card-body">
+                                    <p class="card-text-full">Silicon steels, also known as electrical steels, are
+                                        specially
+                                        engineered materials used primarily in electrical and magnetic applications.
+                                        These steels
+                                        are ideal for manufacturing transformers, electric motors, and generators, as
+                                        they offer
+                                        exceptional magnetic properties and energy efficiency.
+                                    </p>
+                                    <p class="card-text-full">Our silicon steels are designed to reduce energy losses,
+                                        providing
+                                        excellent performance even in high-frequency applications. These materials are
+                                        available
+                                        in different grades to meet the specific requirements of various electrical
+                                        equipment
+                                        manufacturers.
+                                    </p>
+                                    <p class="card-text-full">By choosing our silicon steels, you ensure the reliability
+                                        and
+                                        efficiency of your electrical systems. These steels contribute significantly to
+                                        energy
+                                        savings and the overall performance of modern electrical devices.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </t>
+        </template>
+
+        <template id="stainless_steel_coils_template" name="Stainless Steel Coils">
+            <t t-call="website.layout">
+                <div class="container mt-5">
+                    <h2 class="card-heading-main">Stainless Steel Coils</h2>
+                    <div class="row">
+                        <div class="col-md-12 mb-4">
+                            <div class="card shadow-sm text-center">
+                                <img t-att-src="'https://res.cloudinary.com/drw030kab/image/upload/v1735812264/arizogroup/Screenshot_2025-01-02_151353_nsffzm.png'"
+                                     alt="Stainless Steel Coils"
+                                     class="card-img-main"
+                                     style="width: 70%; height: 40%; object-fit: cover;"/>
+                                <div class="card-body">
+                                    <p class="card-text-full">Stainless steel coils are versatile materials widely used
+                                        across
+                                        various industries, including construction, automotive, and kitchenware
+                                        manufacturing.
+                                        These coils are highly durable and resistant to corrosion, making them ideal for
+                                        applications in harsh environments.
+                                    </p>
+                                    <p class="card-text-full">Our stainless steel coils are available in multiple grades
+                                        and
+                                        finishes, ensuring they meet the unique demands of diverse projects. These coils
+                                        are
+                                        known for their excellent formability, strength, and aesthetic appeal.
+                                    </p>
+                                    <p class="card-text-full">Whether you need stainless steel coils for decorative
+                                        purposes or
+                                        industrial use, our high-quality products are tailored to deliver exceptional
+                                        performance
+                                        and long-lasting durability. Explore our range today!
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </t>
+        </template>
+
+        <template id="stainless_steel_h_beams_template" name="Stainless Steel H-Beams">
+            <t t-call="website.layout">
+                <div class="container mt-5">
+                    <h2 class="card-heading-main">Stainless Steel H-Beams</h2>
+                    <div class="row">
+                        <div class="col-md-12 mb-4">
+                            <div class="card shadow-sm text-center">
+                                <img t-att-src="'https://res.cloudinary.com/drw030kab/image/upload/v1735812265/arizogroup/Screenshot_2025-01-02_151509_kyv6tf.png'"
+                                     alt="Stainless Steel H-Beams"
+                                     class="card-img-main"
+                                     style="width: 70%; height: 40%; object-fit: cover;"/>
+                                <div class="card-body">
+                                    <p class="card-text-full">Stainless steel H-beams are essential components in
+                                        structural
+                                        engineering, offering superior strength and corrosion resistance. These beams
+                                        are widely
+                                        used in construction, bridges, and large-scale infrastructure projects for their
+                                        load-
+                                        bearing capabilities.
+                                    </p>
+                                    <p class="card-text-full">Our stainless steel H-beams are available in various
+                                        dimensions and
+                                        grades, ensuring they meet the specific needs of your projects. These beams are
+                                        designed
+                                        to provide optimal performance and safety in challenging environments.
+                                    </p>
+                                    <p class="card-text-full">By choosing our stainless steel H-beams, you invest in
+                                        materials
+                                        that ensure the longevity and stability of your structures. Explore our range to
+                                        find the
+                                        perfect fit for your construction requirements.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </t>
+        </template>
+
+    </data>
+</odoo>

@@ -4,49 +4,82 @@
         <xpath expr="//body" position="inside">
             <script>
                 document.addEventListener('DOMContentLoaded', function () {
-                const path = window.location.pathname.replace(/\/$/, '').toLowerCase();
-                console.log(path);
-                const navLinks = {
-                '': 'nav-home',
-                '/about': 'nav-about',
-                '/careers': 'nav-careers',
-                '/contact': 'nav-contact',
+                // Select all menu items with submenus
+                const menuItems = document.querySelectorAll('.menu-item');
 
-                };
+                // Toggle submenu visibility on click (for mobile)
+                menuItems.forEach(item => {
+                item.addEventListener('click', function (e) {
+                // Prevent event propagation to avoid multiple submenu toggles
+                e.stopPropagation();
 
-                // Remove 'active' class from all nav links
-                document.querySelectorAll('.nav-link').forEach(link => {
-                link.classList.remove('active');
-                });
-
-                // Add 'active' class to the current nav link
-                const navItem = document.getElementById(navLinks[path]);
-                if (navItem) {
-                navItem.classList.add('active');
-                }
-                });
-
-                document.querySelectorAll('.menu-item > a').forEach((menuItem) => {
-                menuItem.addEventListener('click', (e) => {
-                const parentItem = e.target.parentElement;
-
-                if (window.innerWidth &lt;= 768) {
-                e.preventDefault(); // Prevent navigation
-                parentItem.classList.toggle('open'); // Toggle class to show/hide submenu
+                // Toggle the 'open' class to show or hide the submenu
+                const submenu = item.querySelector('.submenu');
+                if (submenu) {
+                const isOpen = submenu.style.display === 'block';
+                submenu.style.display = isOpen ? 'none' : 'block';
                 }
                 });
                 });
 
+                // Close all submenus when clicking anywhere outside the menu
+                document.addEventListener('click', function () {
+                menuItems.forEach(item => {
+                const submenu = item.querySelector('.submenu');
+                if (submenu) {
+                submenu.style.display = 'none';
+                }
+                });
+                });
+
+                // Prevent submenu toggle when clicking inside the menu
+                const navbar = document.querySelector('.navbar');
+                navbar.addEventListener('click', function (e) {
+                e.stopPropagation();
+                });
+
+                // Show and hide the submenus for desktop (hover-based)
+                menuItems.forEach(item => {
+                const submenu = item.querySelector('.submenu');
+                if (submenu) {
+                // Show submenu on mouseover
+                item.addEventListener('mouseover', function () {
+                submenu.style.display = 'block';
+                });
+
+                // Hide submenu on mouseleave
+                item.addEventListener('mouseleave', function () {
+                submenu.style.display = 'none';
+                });
+                }
+                });
+
+                // For nested submenus inside the main submenus
+                const nestedSubmenus = document.querySelectorAll('.submenu .menu-item > a');
+                nestedSubmenus.forEach(submenuItem => {
+                submenuItem.addEventListener('click', function (e) {
+                e.preventDefault();
+                const parentItem = submenuItem.parentElement;
+                const nestedSubmenu = parentItem.querySelector('.submenu');
+                if (nestedSubmenu) {
+                const isOpen = nestedSubmenu.style.display === 'block';
+                nestedSubmenu.style.display = isOpen ? 'none' : 'block';
+                }
+                });
+                });
+                });
 
             </script>
         </xpath>
+
         <xpath expr="//header" position="replace">
             <header>
                 <nav class="navbar navbar-expand-lg navbar-light">
                     <a class="navbar-brand px-3" href="/">
                         <img class="main-logo"
-                             src="https://res.cloudinary.com/drw030kab/image/upload/v1734672339/i3wo5e24b52jkc9gdbrn.png"
+                             src="\airzoglobal\static\images\web-icon.png"
                              alt="logo"/>
+                        <span>ARIZO GROUP</span>
                     </a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
                             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -62,11 +95,10 @@
                             </li>
                             <li class="menu-item">
                                 <a href="#" class="nav-link">What We Trading</a>
-                                <ul class="submenu p-4">
+                                <ul class="submenu-1 p-4">
                                     <li class="menu-item">
                                         <a href="/tradingcategory/metal" class="nav-link">Metal</a>
-                                        <!-- Submenu for "Metal" -->
-                                        <ul class="submenu-right p-4">
+                                        <ul class="submenu-right-1 p-4">
                                             <li>
                                                 <a href="/whatwetrading/any-type-of-metal" class="nav-link">Any Type Of
                                                     Metal
@@ -101,7 +133,7 @@
                                     </li>
                                     <li class="menu-item">
                                         <a href="/tradingcategory/ferrous-metal" class="nav-link">Ferrous Metal</a>
-                                        <ul class="submenu-right p-4">
+                                        <ul class="submenu-right-2 p-4">
                                             <li>
                                                 <a href="/whatwetrading/iron" class="nav-link">Iron</a>
                                             </li>
@@ -129,7 +161,7 @@
                                         <a href="/tradingcategory/non-ferrous-metal" class="nav-link">Non Ferrous
                                             Metal
                                         </a>
-                                        <ul class="submenu-right p-4">
+                                        <ul class="submenu-right-3 p-4">
                                             <li>
                                                 <a href="/whatwetrading/zinc" class="nav-link">Zinc</a>
                                             </li>
@@ -159,10 +191,8 @@
                                 </ul>
                             </li>
                             <li class="menu-item">
-                                <a class="nav-link" href="#">
-                                    Products
-                                </a>
-                                <ul class="submenu p-4" aria-labelledby="navbarDropdown2">
+                                <a class="nav-link" href="#">Products</a>
+                                <ul class="submenu-2 p-4" aria-labelledby="navbarDropdown2">
                                     <li>
                                         <a class="nav-link" href="/product/carbon-steel-sheets-coil">Carbon Steel
                                             Sheets/Coil
@@ -192,11 +222,6 @@
                                         </a>
                                     </li>
                                     <li>
-                                        <a class="nav-link" href="/product/stainless-steel-coils">Stainless Steel
-                                            Coils
-                                        </a>
-                                    </li>
-                                    <li>
                                         <a class="nav-link" href="/product/stainless-steel-h-beams">Stainless Steel
                                             H-Beams
                                         </a>
@@ -210,15 +235,14 @@
                                 <a class="nav-link" href="/contact" id="nav-contact">Contact</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link enquiry-now" id="nav-enquiry" href="/enquiry-now">
-                                    Enquiry Now
-                                </a>
+                                <a class="nav-link enquiry-now" id="nav-enquiry" href="/enquiry-now">Enquiry Now</a>
                             </li>
                         </ul>
                     </div>
                 </nav>
             </header>
         </xpath>
+
         <xpath expr="//body" position="inside">
             <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
             <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>

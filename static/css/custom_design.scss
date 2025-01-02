@@ -3,16 +3,16 @@
 }
 
 .main-logo {
-        height:50px;
-    }
+    height:50px;
+}
+
 .navbar {
     background-color: #FFFFFF;
 }
 
-
 .main-nav {
-        gap:10px;
-    }
+    gap:10px;
+}
 
 .navbar-brand, .nav-link {
     font-size:14px !important;
@@ -27,8 +27,9 @@
 
 .navbar-toggler {
     border: none;
-    margin-right:10px
+    margin-right:10px;
 }
+
 .navbar-toggler-icon {
     background-image: url("data:image/svg+xml;charset=UTF8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba%280, 0, 0, 1%29' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
 }
@@ -51,149 +52,142 @@
     }
 }
 
-// custom Nav Menu Styles
+/* Custom Nav Menu Styles */
 
 /* General Menu Styles */
-
 .menu-list {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
 }
+
 .menu-item {
-  position: relative;
+    position: relative;
+    text-align:start !important;
 }
+
 .menu-item > a {
-  padding: 10px 20px;
-  display: block;
-  color: black;
-  text-decoration: none;
+    padding: 10px 20px;
+    display: block;
+    color: black;
+    text-decoration: none;
 }
 
 /* Submenu Styles */
-.submenu {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  position: absolute;
-  left: 0;
-  text-align:left;
-  top: 100%;
-  display: none;
-  min-width:180px;
-  background-color: white;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  z-index: 1000;
+.submenu-1, .submenu-2, .submenu-3 {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    left: 0;
+    text-align:left;
+    top: 100%;
+    display: none;
+    min-width:180px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
 }
-.submenu-right {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  position: absolute;
-  text-align:left;
-  min-width:220px;
-  left: 100%;
-  top: 0;
-  display: none;
-  background-color: white;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  z-index: 1000;
+
+.submenu-right-1, .submenu-right-2, .submenu-right-3 {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    text-align:left;
+    min-width:220px;
+    left: 100%;
+    top: 0;
+    display: none;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
 }
-.submenu li a, .submenu-right li a {
-  padding: 10px 20px;
-  display: block;
-  color: black;
-  text-decoration: none;
+
+.submenu-1 li a, .submenu-2 li a, .submenu-3 li a,
+.submenu-right-1 li a, .submenu-right-2 li a, .submenu-right-3 li a {
+    padding: 10px 20px;
+    display: block;
+    color: black;
+    text-decoration: none;
 }
-.submenu li a:hover, .submenu-right li a:hover {
-  background-color: #f0f0f0;
+
+.submenu-1 li a:hover, .submenu-2 li a:hover, .submenu-3 li a:hover,
+.submenu-right-1 li a:hover, .submenu-right-2 li a:hover, .submenu-right-3 li a:hover {
+    background-color: #f0f0f0;
 }
 
 /* Show Submenu on Hover */
-.menu-item:hover > .submenu {
-  display: block;
-}
-.menu-item:hover > .submenu-right {
-  display: block;
+.menu-item:hover > .submenu-1,
+.menu-item:hover > .submenu-2,
+.menu-item:hover > .submenu-3 {
+    display: block;
 }
 
-/* Mobile View */
+.menu-item:hover > .submenu-right-1,
+.menu-item:hover > .submenu-right-2,
+.menu-item:hover > .submenu-right-3 {
+    display: block;
+}
+
 @media (max-width: 768px) {
-  .menu-list {
-    flex-direction: column;
-    justify-content:start;
-  }
-  .submenu, .submenu-right {
-    position: relative;
-    left: 0;
-    top: 0;
-  }
-  .menu-item > a::after {
-    content: "▼";
-    float: right;
-    margin-left: 10px;
-  }
-  .menu-item.open > .submenu, .menu-item.open > .submenu-right {
-    display: block;
-  }
-  .menu-item:hover > .submenu, .menu-item:hover > .submenu-right {
-    display: none; /* Disable hover effect on mobile */
-  }
+    .menu-list {
+        flex-direction: column;
+        justify-content: start;
+    }
+
+    /* Style for main submenu */
+    .submenu-1, .submenu-2, .submenu-3, .submenu-right-1, .submenu-right-2, .submenu-right-3 {
+        display: none; /* Hide submenus by default */
+        position: relative;
+        left: 0;
+        top: 100%; /* Position it below the parent item */
+        width: 100%;
+        background-color: #fff;
+        box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+        z-index: 10;
+    }
+
+    /* Active submenu when 'open' class is added */
+    .menu-item.open > .submenu-1,
+    .menu-item.open > .submenu-2,
+    .menu-item.open > .submenu-3,
+    .menu-item.open > .submenu-right-1,
+    .menu-item.open > .submenu-right-2,
+    .menu-item.open > .submenu-right-3 {
+        display: block;
+        top: 100%; /* Position it below the parent item */
+    }
+
+    /* Rotate arrow when the submenu is open */
+    .menu-item.open > a::after {
+        transform: rotate(180deg);
+    }
+
+    /* Style for nested submenus (internal) */
+    .submenu-1 .submenu, .submenu-2 .submenu, .submenu-3 .submenu {
+        display: none; /* Hide by default */
+        position: absolute;
+        left: 100%;
+        top: 0;
+        width: 100%;
+        background-color: #f1f1f1;
+        box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    /* Show nested submenu when 'open' class is added to parent */
+    .menu-item.open .submenu-1.open,
+    .menu-item.open .submenu-2.open,
+    .menu-item.open .submenu-3.open {
+        display: block;
+    }
+
+    /* Adjust the rest of the menu items below when one is open */
+    .menu-item.open ~ .menu-item {
+        margin-top: 20px;
+    }
 }
-
-
-
-
-/* Dropdown menu styles */
-/* Submenu positioning for right-alignment */
-.dropdown-submenu {
-    position: relative; /* Required to position the submenu correctly */
-}
-
-.dropdown-submenu .dropdown-menu {
-    position: absolute; /* Absolute positioning for the submenu */
-    top: 0; /* Aligns the submenu with the parent item */
-    left: 100%; /* Moves the submenu to the right of the parent menu */
-    margin-left: 0.1rem; /* Slight spacing between parent and submenu */
-    margin-top: 0; /* Optional: Adjust if misaligned */
-    transition: all 0.2s ease-in-out; /* Optional: Smooth transition for better UX */
-}
-
-/* Show submenu on hover (if using CSS-only) */
-.dropdown-submenu:hover > .dropdown-menu {
-    display: block;
-}
-
-/* Optional styles for better visual appearance */
-.dropdown-menu {
-    background-color: #FFFFFF;
-    border: none;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    padding: 15px;
-}
-
-.dropdown-item {
-    color: #a6a6a6;
-    font-size: 14px;
-    padding: 10px 15px;
-}
-
-.dropdown-submenu {
-    position: relative;
-}
-
-.dropdown-submenu .dropdown-menu {
-    top: 60px;
-    left: 50%;
-    margin-top: 80px;
-    display: none; /* Default hidden */
-}
-
-.dropdown-submenu.show .dropdown-menu {
-    display: block; /* Show when toggled */
-}
-
 
 
 /* Enquiry Now button styles */
@@ -842,11 +836,15 @@ footer h4::after {
 
 .read-m-btn {
     border: 0px;
-    color: #ff0000;
+    color: black;
     font-weight: bold;
     align-self: flex-end;
     margin-top: auto;
 }
+
+.read-m-btn:hover{
+    color:#ff0000;
+    }
 
 .card-text {
     display: -webkit-box;
